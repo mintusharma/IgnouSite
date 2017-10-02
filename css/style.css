@@ -1,0 +1,275 @@
+ body{
+           // background-color:blueviolet;
+            
+        }
+
+/* Navigationbar Style Start Here*/
+  .navbar {
+      margin-bottom: 0;
+      background-color:navy;
+      z-index: 9999;
+      border: 0;
+      padding:5px; 
+      font-size: 15px !important;
+      line-height: 2.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+  }
+
+
+
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color:navy!important;
+      font-size:15px;
+      background-color:fff!important;
+      height: 100%;
+  }
+  .navbar-default .navbar-toggle {
+      border-color:navy;
+      color: #fff !important;
+  }
+ .nav-tabs{
+            text-decoration: none;
+            padding-left: 10px;
+            text-align: center;
+            font-size: 1.3em;
+            letter-spacing: 3px;
+        }
+/* End of Navigationbar style*/
+        
+        .container{
+            width: 100%;
+            padding: 0;
+        }
+         .container-fluid {
+      padding: 60px 50px;
+  }
+        
+        .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      height:500px; 
+      background-color: cadetblue;
+  }
+        .mycarousel-control{
+            opacity: .4;
+            width:100px; 
+        }
+        .tabcontainer2{
+            width:100%;
+            margin: 0 auto;
+            background-color:whitesmoke;
+            height:345px; 
+             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+       
+        .logo-small {
+      color:navy;
+      font-size: 60px;
+  }
+        
+        .text-center{
+            width:100%;
+            margin: 0 auto;
+            background-color: whitesmoke;
+        }
+        .text-center2{
+            width:100%;
+            margin: 0 auto;
+        }
+        
+        .text-center a{
+            text-decoration: none;
+            color:black;
+        }
+        .sideform{
+            background-color: whitesmoke;
+            width: 32%;
+            margin: 0 auto;
+            display:inline-block;
+             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            
+        }
+         @media screen and (max-width: 768px) {
+             .sideform{
+                 width: 96%;
+                 margin-top:5%; 
+                 
+             }
+             .sideform2{
+                 min-width: 100%;
+             }
+             
+  }
+        
+        .service-container{
+            margin-top: 10px;
+            
+        }
+        #home, #menu1,#menu2,#menu3{
+            background-color: white;
+            height: 87%;
+            border: 5px solid whitesmoke;
+            padding:20px; 
+        }
+#menu1{
+    padding:52px;
+}
+#menu1 h4{
+    font-size:2em;
+    text-align: center;
+    color: crimson;
+    margin-top:-40px; 
+}
+        
+        .sideinfo{
+            background-color: whitesmoke;
+            width: 32%;
+            height: 550px;
+            color: black;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        .project-list{
+            margin-top: 10px;
+            height:540px;
+        }
+        
+        .mark{
+            height:88%;
+            background-color: white;
+        }
+        
+.bigcontainer{ 
+    width: 99.85%; 
+}
+
+        footer {
+      background-color: red;
+      color: #f5f5f5;
+      padding: 32px;    
+      width:100%;
+  }
+        .footertext{
+            height:30%; 
+            margin-top: 5px;
+            background-color:black;
+        }
+   .footertext a {
+      color: #ffffff;
+  }
+  footer a:hover {
+      color: red;
+      text-decoration: none;
+  }  
+        
+ textarea{
+            resize: vertical;
+        }
+        
+
+        .thoughts{
+            margin-top:5px;
+        }
+
+
+/*    */
+
+ .popupmodel{
+                padding-top:200px; 
+            }    
+            .wcs{
+                background-color:gray;
+                margin: 0 auto;
+                width: 97.5%;
+                height: 350px;
+                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                display: block;
+                    }
+            .team_member{
+                margin: 0 auto;
+                width:90%; 
+            }
+            .team_member h1{
+                text-align: center;
+                color: white;
+                text-decoration: underline;
+            }
+
+            .members{
+            //  background-color: darkgoldenrod;
+                display: block;
+                color: white;
+                height:75%; 
+                margin: 0 auto;
+                width: 80%;
+                text-align: center;
+              
+            }
+
+
+
+/* style css for contact page */
+ .aboutustitle{
+                 height: 250px;
+                 background-color: cadetblue;
+                 color: white;
+                 background-image: url(../images/breadcrumb.jpg);
+                 background-repeat: no-repeat;
+     margin-bottom:10px; 
+             }
+             .aboutustitle h1{
+                 padding-top: 100px;
+                 padding-left:50px;
+                 font-size:4.5em; 
+                 
+             }
+             
+             .titlepage{
+                 height: 570px;
+             }
+             .contactform{
+                  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+                 width: 80%;
+                 height:80%;
+                 margin: 0 auto;
+                 padding-top:10px; 
+
+             }
+             .planguage{
+                 background-color: blue;
+                 height:400px;
+                 color: white;
+                 margin: 0 auto;
+                 clear: both;
+                 
+             }
+             
+             .map{ 
+                 height:400px;
+                 background-color: aqua;
+                 margin: 0 auto;
+                 clear: both;
+             }
+           
+/* end of contact form style */
+
+/*  Project List Page style start here */
+.projectlist{
+    height: auto;
+    min-width:70%; 
+}
+.sideform2{ 
+    width:30%; 
+            color: black;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
