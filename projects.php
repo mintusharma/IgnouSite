@@ -1,6 +1,16 @@
 <html>
 <head>
-    
+    <title>Projects</title>
+  <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+      <script src="jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+<meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+         
     </head>
      <head>
         <title>
