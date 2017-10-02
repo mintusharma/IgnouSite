@@ -1,15 +1,61 @@
 <html>
     <head>
         <title>Tutorials</title>
-      <meta charset="utf-8">
+       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
+        
       <script src="jquery.js"></script>
       <script src="js/bootstrap.min.js"></script>
 <meta name="google-signin-scope" content="profile email">
     <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <style>
+        body{clear: both; margin: 0 auto;}
+       
+        .tutorials h1{
+            padding-top:100px;
+            font-size:5em;
+            margin: 0 auto;
+            color: white;
+            text-align: center;
+            font:comic sans ms;
+        }
+        .card_views{
+            
+            height:auto;
+        }
+        .sub_cards{
+            margin-left:6%;
+            margin-bottom:10px;
+            margin-top:10px; 
+            height:300px;
+            
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+             
+        }
+        .card_image{
+           
+            height:70%;
+            margin-top:4%; 
+            margin-bottom:2%; 
+        }
+        .card_button button{
+            height:23%;
+            margin: 0;
+            
+        }
+        
+        .bca,.mca{
+            height:60px;
+           
+            margin:0;
+            text-align: center;
+            clear: both;
+        }
+        </style>
+        
   </head>
     <body>
 <!--    Navigation Bar Start Here-->
@@ -38,43 +84,56 @@
 <!--    Navigation bar End here        -->
 
         <!-- Cards Starting From Here  -->
-        <div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
-    <div class="card-block">
-      <h4 class="card-title">Card title</h4>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+       
+         <div class="col-sm-12 tutorials">
+    <h1 style="color:Blue">Tutorials</h1>
     </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
-    <div class="card-block">
-      <h4 class="card-title">Card title</h4>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
-    <div class="card-block">
-      <h4 class="card-title">Card title</h4>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-</div>
-        
-        
-        
-        
-            <!-- footer Start -->
+    <div class="col-sm-12 card_views">
+        <div class="col-sm-12 card_container">
+     
+        <div class="col-sm-3 sub_cards">
+        <div class="col-sm-12 card_image"><img class="col-sm-12" src="images/c.jpg"/></div>
+            <div class="col-sm-12 card_button">
+                <button type="button" class="btn btn-primary btn-block"><h3>C Tutorials</h3></button>
+            </div>
+        </div>
+        <div class="col-sm-3 sub_cards">
+        <div class="col-sm-12 card_image"><img class="col-sm-12" src="images/c2.jpg"/></div>
+            <div class="col-sm-12 card_button">
+                <button type="button" class="btn  btn-primary btn-block"><h3>C# Tutorials</h3></button>
+            </div>
+        </div>
+        <div class="col-sm-3 sub_cards">
+        <div class="col-sm-12 card_image"><img class="col-sm-12" src="images/images.png"/></div>
+            <div class="col-sm-12 card_button">
+                <button type="button" class="btn btn-primary btn-block"><h3>C++ Tutorials</h3></button>
+            </div>
+        </div>
+        <div class="col-sm-3 sub_cards">
+        <div class="col-sm-12 card_image"><img class="col-sm-12" src="images/c2.jpg"/></div>
+            <div class="col-sm-12 card_button">
+                <button type="button" class="btn btn-primary btn-block"><h3>Python Tutorials</h3></button>
+            </div>
+        </div>
+        <div class="col-sm-3 sub_cards">
+        <div class="col-sm-12 card_image"><img class="col-sm-12" src="images/images.png"/></div>
+            <div class="col-sm-12 card_button">
+                <button type="button" class="btn btn-primary btn-block"><h3>Java Tutorials</h3></button>
+            </div>
+        </div>
+              <div class="col-sm-3 sub_cards">
+        <div class="col-sm-12 card_image"><img class="col-sm-12" src="images/c.jpg"/></div>
+            <div class="col-sm-12 card_button">
+                <button type="button" class="btn btn-primary btn-block"><h3>Spring Tutorials</h3></button>
+            </div>
+        </div>
+             <!-- footer Start -->
             <div class="col-sm-12" style="margin: 0; padding: 0;">
                 <footer class="text-center footertext">
       <a class="up-arrow" href="#" data-toggle="tooltip" title="TO TOP">
         <span class="glyphicon glyphicon-chevron-up"></span>
       </a><br><br>
-      <p>IgnouFear No Fear About Assignment , Projects , Classes etc. <a href="ignoufear.com" data-toggle="tooltip" title="Visit w3schools">IgnouFear</a></p> 
+      <p>IgnouFear No Fear About tutorials , Projects , Classes etc. <a href="ignoufear.com" data-toggle="tooltip" title="Visit w3schools">IgnouFear</a></p> 
     </footer>
             </div>
         </body>
