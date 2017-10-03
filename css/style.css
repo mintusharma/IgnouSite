@@ -67,7 +67,7 @@
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   width: 100%;
-  height:400px;
+  height:100%;
   background-color: cadetblue;
 }
 .mycarousel-control{
