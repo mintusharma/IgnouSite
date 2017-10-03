@@ -15,7 +15,7 @@
     <div class="carousel-inner" role="listbox">
 
       <div class="item active">
-        <img src="images/1.jpg" alt="Chania" width="460" height="345">
+        <img src="images/ignousite3.png" alt="Chania">
         <div class="carousel-caption">
           <h2>IgnouSite</h2>
           <p>We provide Solutions of IGNOU Problems</p>
@@ -23,7 +23,7 @@
       </div>
 
       <div class="item">
-        <img src="images/2.jpg" alt="Chania" width="460" height="345">
+        <img src="images/ignousite3.png" alt="Chania">
         <div class="carousel-caption">
           <h2>IgnouSite</h2>
           <p>We provide Solutions of IGNOU Problems</p>
@@ -31,7 +31,7 @@
       </div>
 
       <div class="item">
-        <img src="images/3.jpg" alt="Flower" width="460" height="345">
+        <img src="images/ignousite3.png" alt="Flower" >
         <div class="carousel-caption">
           <h2>IgnouSite</h2>
           <p>We provide Solutions of IGNOU Problems</p>
@@ -39,7 +39,7 @@
       </div>
 
       <div class="item">
-        <img src="images/4.jpg" alt="Flower" width="460" height="345">
+        <img src="images/ignousite3.png" alt="Flower" >
         <div class="carousel-caption">
           <h2>IgnouSite</h2>
           <p>We provide Solutions of IGNOU Problems</p>
