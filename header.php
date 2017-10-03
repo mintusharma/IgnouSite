@@ -24,12 +24,12 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.php"><span class="glyphicon glyphicon-education"></span>IgnouSite</a>
+        <a class="navbar-brand" href="index.php"><img src="images/ignousite-logo.png" alt=""></a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="index.php">HOME</a></li>
-          <li><a href="#">SERVICES</a></li>
+          <li><a href="Tutorials.php">TUTORIALS</a></li>
           <li><a href="#">RESULT</a></li>
           <li><a href="projects.php">PROJECTS</a></li>
           <li><a href="contact.php">CONTACT</a></li>
@@ -38,5 +38,5 @@
       </div>
     </div>
   </nav>
-  <p id="padding_bottom"></p>
+  <p id="padding_bottom"></p>  <!-- Do not remove this (Holding the Bottom padding because fixed nav doesn't support margin property)-->
   <!--    Navigation bar End here        -->

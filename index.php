@@ -2,7 +2,6 @@
 <?php include('header.php'); ?>
 
 <div class="container">
-
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -15,35 +14,35 @@
     <div class="carousel-inner" role="listbox">
 
       <div class="item active">
-        <img src="images/ignousite3.png" alt="Chania">
-        <div class="carousel-caption">
+        <img src="images/ignousite.png" alt="Chania">
+        <!-- <div class="carousel-caption">
           <h2>IgnouSite</h2>
           <p>We provide Solutions of IGNOU Problems</p>
-        </div>
+        </div> -->
       </div>
 
       <div class="item">
-        <img src="images/ignousite3.png" alt="Chania">
-        <div class="carousel-caption">
+        <img src="images/ignousite.png" alt="Chania">
+        <!-- <div class="carousel-caption">
           <h2>IgnouSite</h2>
           <p>We provide Solutions of IGNOU Problems</p>
-        </div>
+        </div> -->
       </div>
 
       <div class="item">
-        <img src="images/ignousite3.png" alt="Flower" >
-        <div class="carousel-caption">
+        <img src="images/ignousite.png" alt="Flower" >
+        <!-- <div class="carousel-caption">
           <h2>IgnouSite</h2>
           <p>We provide Solutions of IGNOU Problems</p>
-        </div>
+        </div> -->
       </div>
 
       <div class="item">
-        <img src="images/ignousite3.png" alt="Flower" >
-        <div class="carousel-caption">
+        <img src="images/ignousite.png" alt="Flower" >
+        <!-- <div class="carousel-caption">
           <h2>IgnouSite</h2>
           <p>We provide Solutions of IGNOU Problems</p>
-        </div>
+        </div> -->
       </div>
 
     </div>
@@ -368,7 +367,6 @@
     </div>
   </div>
 </div>
-
 
 <!-- # Footer is fetched -->
 <?php include('footer.php'); ?>
