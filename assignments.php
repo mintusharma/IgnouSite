@@ -1,16 +1,4 @@
 
-<head>
-  <title>Assignments</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/assignment-css.css">
-  <script src="jquery.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-
-
-</head>
   <!--    Navigation Bar Start Here-->
   <?php include('header.php'); ?>
   <!--    Navigation bar End here        -->
@@ -23,7 +11,7 @@
       <div class="col-sm-3 sub_cards">
         <div class="col-sm-12 card_image">kkds</div>
         <div class="col-sm-12 card_button">
-          <button type="button" class="btn btn-primary btn-block">FIRST SEMESTER</button>
+           <button type="button" class="btn  btn-primary btn-block">SECOND SEMESTER</button>
         </div>
       </div>
       <div class="col-sm-3 sub_cards">

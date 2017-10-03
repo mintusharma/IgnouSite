@@ -1,54 +1,6 @@
-<html>
-<head>
-  <title>Projects</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="jquery.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-
-  <!-- Below is unneccesary code remove it -->
-
-  <!-- <meta name="google-signin-scope" content="profile email">
-  <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
-  <script src="https://apis.google.com/js/platform.js" async defer></script> -->
-
-</head>
-<head>
-  <title>
-    IgnouFear
-  </title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="jquery.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-
-
-  <script>
-  function myfun(){
-    alert("Submited Successfully");
-  }
-  </script>
-  <style>
-  .btn:after {
-    font-family: "Glyphicons Halflings";
-    content: "\e114";
-    float: left;
-    margin-right:15px;
-  }
-  /* Icon when the collapsible content is hidden */
-  .btn.collapsed:after {
-    content: "\e080";
-  }
-  </style>
-</head>
-
-<body>
-
-
+<!--    Navigation Bar Start Here-->
+  <?php include('header.php'); ?>
+  <!--    Navigation bar End here        -->
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
@@ -82,7 +34,7 @@
         <div class="panel panel-default">
           <div class="panel-heading">
             <h2 class="panel-title">
-              <a data-toggle="collapse" class="btn collapsed" data-parent="#accordion" href="#collapse1"> <b> Project Based On Java Language </b></a>
+              <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse1"> <b> Project Based On Java Language </b></a>
             </h2>
           </div>
           <div id="collapse1" class="panel-collapse collapse in">

@@ -9,6 +9,7 @@
   <link rel="shortcut icon" href="images/favicon/favicon.png" type="image/x-icon" />
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/assignment-css.css">
   <script src="jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
 

@@ -23,16 +23,23 @@ body{clear: both; margin: 0 auto;}
 
   }
   .card_image{
-    height:70%;
+    height:67%; 
     margin-top:4%;
     margin-bottom:2%;
+      background-color: cornflowerblue;
   }
-  .card_button button{
-    height:23%;
+  .card_button{
+    height:25%;
     margin: 0;
+    background-color:forestgreen;
+    border-radius:10px;
+    color: white;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    font-size:20px; 
+    font-size:10px; 
   }
+
+
+
 
   .bca,.mca{
     height:60px;
