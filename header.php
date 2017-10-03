@@ -8,11 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script>
-  function myfun(){
-    alert("Submited Successfully");
-  }
-  </script>
+ 
 </head>
 <body>
   <!--    Navigation Bar Start Here-->
@@ -29,7 +25,7 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="index.php">HOME</a></li>
-          <li><a href="#">SERVICES</a></li>
+          <li><a href="assignments.php">ASSIGNMENTS</a></li>
           <li><a href="#">RESULT</a></li>
           <li><a href="projects.php">PROJECTS</a></li>
           <li><a href="contact.php">CONTACT</a></li>
