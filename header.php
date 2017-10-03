@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
- 
+
 </head>
 <body>
   <!--    Navigation Bar Start Here-->
@@ -25,11 +25,8 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="index.php">HOME</a></li>
-<<<<<<< HEAD
           <li><a href="Tutorials.php">TUTORIALS</a></li>
-=======
           <li><a href="assignments.php">ASSIGNMENTS</a></li>
->>>>>>> a9b05f50d6832a100b6e9bf890a19db94ce50baf
           <li><a href="#">RESULT</a></li>
           <li><a href="projects.php">PROJECTS</a></li>
           <li><a href="contact.php">CONTACT</a></li>
