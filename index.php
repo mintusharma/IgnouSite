@@ -324,38 +324,6 @@
 
     </div> <!--  End of Service Cpntainer -->
 
-
-    <!--
-    <div class="col-sm-12 thoughts">
-    <div class="12 wcs">
-    <div class="col-sm-12">
-    <div class="team_member">
-    <h1>OUR TEAM</h1>
-  </div>
-</div>
-<div class="col-sm-12">
-<div class="members">
-<div class="col-sm-4">
-<h3>Shivam Rajput</h3>
-<img src="images/2.jpg" class="img-circle" alt="Bird" width="150" height="150">
-<h4>Web Developer</h4>
-</div>
-<div class="col-sm-4" style="border-left:1px solid gray; border-right: 1px solid gray;  ">
-<h3>Mintu Sharma</h3>
-<img src="images/3.jpg" class="img-circle" alt="Bird" width="150" height="150">
-<h4>Web Designer / Software Developer</h4>
-</div>
-<div class="col-sm-4">
-<h3>Ishminder Singh</h3>
-<img src="images/3.jpg" class="img-circle" alt="Bird" width="150" height="150">
-<h4>Web Developer / Software Developer</h4>
-</div>
-
-</div>
-</div>
-</div>
-</div>
--->
 <div class="col-sm-12 implinks" style="margin-top:10px; ">
   <div class="col-sm-8" style="height: 300px;">
     <div class="col-sm-12" style="height: 290px;background-color: cadetblue;margin-top:5px; ">
