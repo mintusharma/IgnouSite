@@ -292,6 +292,10 @@ textarea{
 }
 
 /*Tutorials Page style start here*/
+.tutorials{
+    height:180px;
+    background-color: blueviolet;
+}
 .tutorials h1{
     padding-top:100px;
     font-size:5em;
@@ -301,7 +305,6 @@ textarea{
     font:comic sans ms;
   }
   .card_views2{
-
     height:auto;
   }
   .sub_cards2{

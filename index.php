@@ -1,3 +1,4 @@
+<head><link rel="stylesheet" href="css/style.css"></head>
 <!-- # Header is fetched -->
 <?php include('header.php'); ?>
 
@@ -265,7 +266,7 @@
                 <p>Lorem ipsum dolor sit amet..</p>
               </div>
             </a>
-            <a href="#">
+            <a href="Tutorials.php">
               <div class="col-sm-4">
                 <span class="glyphicon glyphicon-education logo-small"></span>
                 <h4>QUICK TUTORIALS</h4>
