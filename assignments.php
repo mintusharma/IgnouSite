@@ -11,8 +11,7 @@
       <div class="col-sm-3 sub_cards">
         <div class="col-sm-12 card_image">kkds</div>
         <div class="col-sm-12 card_button">
-            <button type="button" class="btn  btn-primary btn btn-block">First SEMESTER</button>
-            <button type="button" class="btn  btn-primary btn btn-block">First SEMESTER</button>
+           
         </div>
       </div>
       <div class="col-sm-3 sub_cards">
