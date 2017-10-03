@@ -1,4 +1,4 @@
-# IgnouSite
+# ** Pull the changes before coding on the project  **
 
 ### :: RULES AND REGS ::
 
