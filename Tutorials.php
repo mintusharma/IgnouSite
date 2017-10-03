@@ -128,14 +128,7 @@
           <button type="button" class="btn btn-primary btn-block"><h3>Spring Tutorials</h3></button>
         </div>
       </div>
-      <!-- footer Start -->
-      <div class="col-sm-12" style="margin: 0; padding: 0;">
-        <footer class="text-center footertext">
-          <a class="up-arrow" href="#" data-toggle="tooltip" title="TO TOP">
-            <span class="glyphicon glyphicon-chevron-up"></span>
-          </a><br><br>
-          <p>IgnouFear No Fear About tutorials , Projects , Classes etc. <a href="ignoufear.com" data-toggle="tooltip" title="Visit w3schools">IgnouFear</a></p>
-        </footer>
-      </div>
-    </body>
-    </html>
+
+
+      <!-- Footer is fetched -->
+       <?php include('footer.php'); ?>
