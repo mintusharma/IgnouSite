@@ -1,5 +1,7 @@
 <!-- # Header is fetched -->
-<?php include('header.php'); ?>
+<?php
+    include("header.php");
+?>
 
 <div class="container">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
