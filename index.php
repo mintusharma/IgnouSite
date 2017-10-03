@@ -1,4 +1,3 @@
-<head><link rel="stylesheet" href="css/style.css"></head>
 <!-- # Header is fetched -->
 <?php include('header.php'); ?>
 
