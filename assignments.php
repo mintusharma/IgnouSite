@@ -1,4 +1,4 @@
-<html>
+
 <head>
   <title>Assignments</title>
   <meta charset="utf-8">
@@ -11,7 +11,6 @@
 
 
 </head>
-<body>
   <!--    Navigation Bar Start Here-->
   <?php include('header.php'); ?>
   <!--    Navigation bar End here        -->
