@@ -21,8 +21,8 @@
   </div>
 </div>
 
-<div class="row">
-  <div class="col-md-6 col-sm- col-xs-6">
+<div class="row row_about">
+  <div class="col-md-3 col-sm-3 col-xs-6">
 
   </div>
 </div>
