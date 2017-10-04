@@ -87,7 +87,7 @@
 
         <div id="menu1" class="tab-pane fade">
           <h4>Check Your Grade Card</h4>
-          <div class="col-sm-6">
+          <div class="col-sm-5">
             <form  action="https://webservices.ignou.ac.in/GradecardM/Result.asp" target="#myModel" method="post">
               <span style="color: black; font-size:15px; ">
                 <b>For BCA/MCA/MP/MPB</b></span>
@@ -109,14 +109,14 @@
                   </div>
                 </div>
                 <div class="form-group">
-                  <div class="col-sm-6" style="margin-top:10px;">
+                  <div class="col-sm-5" style="margin-top:10px;">
                     <input type="submit" class="btn btn-default" value="Submit">
                   </div>
                 </div>
               </form>
 
             </div>
-            <div class="col-sm-6" style="border-left: 1px solid;">
+            <div class="col-sm-5" style="border-left: 1px solid;">
               <form  action="https://webservices.ignou.ac.in/GradecardM/Result.asp" target="#myModel">
                 <span style="color: black; font-size:15px; ">
                   <b>For BCA/MCA/MP/MPB</b></span>
@@ -138,7 +138,7 @@
                     </div>
                   </div>
                   <div class="form-group">
-                    <div class="col-sm-6" style="margin-top:10px;">
+                    <div class="col-sm-5" style="margin-top:10px;">
                       <input type="submit" class="btn btn-default" value="Submit">
                     </div>
                   </div>
@@ -250,7 +250,7 @@
                 <p>Lorem ipsum dolor sit amet..</p>
               </div>
             </a>
-            <a href="#">
+            <a href="projects.php">
               <div class="col-sm-4">
                 <span class="glyphicon glyphicon-lock logo-small"></span>
                 <h4>PROJECTS</h4>

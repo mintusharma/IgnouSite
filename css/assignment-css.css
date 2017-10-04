@@ -1,13 +1,15 @@
 body{clear: both; margin: 0 auto;}
   .assignment{
-    background-color: blueviolet;
-    height: 250px;
+   background-image: url(../images/assignment.jpeg);
+  background-repeat: no-repeat;
+    height: 250px; 
+    opacity: 0.6; 
   }
   .assignment h1{
-    padding-top:100px;
+    padding-top:10%;
     font-size:5em;
     margin: 0 auto;
-    color: white;
+    color: navy;
   }
   .card_views{
     background-color: white;
@@ -18,6 +20,7 @@ body{clear: both; margin: 0 auto;}
     margin-bottom:10px;
     margin-top:10px;
     height:300px;
+    padding: 0;
     background-color: white;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 
@@ -26,27 +29,41 @@ body{clear: both; margin: 0 auto;}
     height:67%; 
     margin-top:4%;
     width:80%;
-      margin-left:10%; 
-      background-color: #00BFA5;
+      color: white;
+    margin-left:10%; 
+    background-color:navy;
     margin-bottom:2%;
-      border-radius:50%; 
-       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   }
 .card_image img{
     height:90%;
     margin-top:5%; 
     width:118%;
     margin-left:-9%; 
-     border-radius:50%;
     
 }
   .card_button { 
-    height:25%;
+    height:27%;
     margin:0px;
     padding: 0;
+    background-color:whitesmoke;
+    color: white;
     
   }
+.card_button a,.other_course a{text-decoration: none;}
+.card_button button{
+    margin-top:2px; 
+    padding-top:10px; 
+    border:none;
+    font-size:17px; 
+}
+.card_button button:hover,.other_course button:hover{
+    background-color:#311B92;
+    color:white;
+    border:none; 
+}
 /* button css start here*/
+/*
 
 .card_button button{
     position: relative;
@@ -85,6 +102,7 @@ body{clear: both; margin: 0 auto;}
     transition: 0s
 }
 
+*/
 /* button style end here */
 
 
@@ -94,15 +112,18 @@ body{clear: both; margin: 0 auto;}
   .bca,.mca{
     height:60px;
     background-color:brown;
-    margin-top:10px; 
+    margin-top:2px; 
     text-align: center;
     clear: both;
-      padding: 0;
+    padding: 0;
+    font-size:3.5em;
+      color:white;
   }
-.mca button{
+.other_course button{
     font-size:1.5em; 
     padding: 0;
     height:60px; 
     margin-top:0px;
+    background-color:navy; 
 }
 
