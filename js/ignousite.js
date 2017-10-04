@@ -14,6 +14,7 @@ var x = setInterval(function() {  //This function updates the date every second
   var seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
   document.getElementById("doomsDay").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
   if(days < 1){
     clearInterval(x);
     document.getElementById("doomsDay").innerHTML = "DOOMSDAY!";
