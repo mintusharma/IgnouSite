@@ -1,18 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <title>IgnouSite</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="icon" type="image/png" href="images/fevicon/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16" /> -->
   <link rel="shortcut icon" href="images/favicon/favicon.png" type="image/x-icon" />
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/assignment-css.css">
   <script src="jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
-
+  <script type="text/javascript" src="js/ignousite.js"></script>
 </head>
 <body>
   <!--    Navigation Bar Start Here-->
@@ -31,10 +29,12 @@
           <li><a href="index.php">HOME</a></li>
           <li><a href="Tutorials.php">TUTORIALS</a></li>
           <li><a href="assignments.php">ASSIGNMENTS</a></li>
-          <li><a href="#">RESULT</a></li>
+          <!-- <li><a href="#">RESULT</a></li> -->
           <li><a href="projects.php">PROJECTS</a></li>
           <li><a href="contact.php">CONTACT</a></li>
           <li><a href="aboutus.php">ABOUT</a></li>
+          <li><a href="#" id="doomsDay"></a></li>
+
         </ul>
       </div>
     </div>
