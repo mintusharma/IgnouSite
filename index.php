@@ -250,7 +250,7 @@
                 <p>Lorem ipsum dolor sit amet..</p>
               </div>
             </a>
-            <a href="#">
+            <a href="projects.php">
               <div class="col-sm-4">
                 <span class="glyphicon glyphicon-lock logo-small"></span>
                 <h4>PROJECTS</h4>

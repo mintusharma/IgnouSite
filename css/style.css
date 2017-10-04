@@ -338,11 +338,13 @@ textarea{
   .card_button2{
     height:25%;
     margin: 0;
+    border:none; 
     padding: 0;
   }
 .card_button2 button:hover{
-    background-color: brown;
+    background-color: #311B92;
     color: white;
+    border:none; 
 }
 
 /* ABOUT US PAGE CSS STARTS HERE*/
