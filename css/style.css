@@ -5,6 +5,13 @@
 .btn{
   border-radius: 0;
 }
+.btn-primary{
+  background-color: #2d4788;
+}
+.btn-primary:hover{
+  background-color: #000080;
+  transition: 900ms ease;
+}
 
 /* Global Css for elements ends*/
 
@@ -403,6 +410,7 @@ font:comic sans ms;
 .social_profiles img{
   width: 100px;
   height: auto;
+  margin-top: 20px;
 }
 .social_profiles img:hover{
   opacity: 0.7;
@@ -411,11 +419,25 @@ font:comic sans ms;
 .social_profiles_heading {
   text-align: center;
   padding-top: 25px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
   color: #fff;
 }
 .social_profiles_heading h2{
   font-size: 3.8rem;
+}
+
+.team_card{
+  border: 1px solid #2d4788;
+  padding: 10px;
+}
+.team_card_img{
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+.team_card_body h4{
+  /*font-size: 2.5rem;*/
+  font-weight: 500;
 }
 
 /* ABOUT US PAGE CSS ENDS HERE*/
