@@ -4,7 +4,7 @@
 
   <!-- Cards Starting From Here  -->
   <div class="col-sm-12 tutorials">
-    <h1>Tutorials</h1>
+<!--    <h1>Tutorials</h1>-->
   </div>
 <div class="col-sm-12 bca">Quick Tutorials</div>
 <div class="col-sm-12 card_views">

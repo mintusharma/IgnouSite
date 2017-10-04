@@ -307,14 +307,17 @@ textarea{
 /*Tutorials Page style start here*/
 .tutorials{
     height:200px;
-    background-color: blueviolet;
+   background-image: url(../images/Tutorial.png);
+  background-repeat: no-repeat;
 }
+/*
 .tutorials h1{
-    padding-top:80px;
+    padding-top:7%;
     font-size:5em;
     color: red;
     font:comic sans ms;
   }
+*/
   .card_views2{
     height:auto;
   }
@@ -328,7 +331,7 @@ textarea{
 
   }
   .card_image2{
-    height:74.5%;
+    height:74.4%;
     margin-bottom:2%;
   }
 .card_image2 img{
@@ -336,15 +339,15 @@ textarea{
     width: 100%;
 }
   .card_button2{
-    height:25%;
-    margin: 0;
-    border:none; 
+    height:20%;
+    margin:0;
+    border:none;
     padding: 0;
   }
 .card_button2 button:hover{
     background-color: #311B92;
     color: white;
-    border:none; 
+    border:none;
 }
 
 /* ABOUT US PAGE CSS STARTS HERE*/

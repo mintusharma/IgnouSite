@@ -19,17 +19,17 @@ body{clear: both; margin: 0 auto;}
     margin-left:6%;
     margin-bottom:10px;
     margin-top:10px;
-    height:300px;
+    height:350px;
     padding: 0;
     background-color: white;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 
   }
   .card_image{
-    height:67%; 
+    height:70%; 
     margin-top:4%;
     width:80%;
-      color: white;
+    color: white;
     margin-left:10%; 
     background-color:navy;
     margin-bottom:2%;
@@ -42,8 +42,10 @@ body{clear: both; margin: 0 auto;}
     margin-left:-9%; 
     
 }
+/* button css start here*/
+
   .card_button { 
-    height:27%;
+    height:25%;
     margin:0px;
     padding: 0;
     background-color:whitesmoke;
@@ -51,10 +53,12 @@ body{clear: both; margin: 0 auto;}
     
   }
 .card_button a,.other_course a{text-decoration: none;}
+
 .card_button button{
     margin-top:2px; 
     padding-top:10px; 
     border:none;
+    padding-top:12px; 
     font-size:17px; 
 }
 .card_button button:hover,.other_course button:hover{
@@ -62,7 +66,7 @@ body{clear: both; margin: 0 auto;}
     color:white;
     border:none; 
 }
-/* button css start here*/
+
 /*
 
 .card_button button{

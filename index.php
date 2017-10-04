@@ -153,7 +153,7 @@
               <h4><span class="glyphicon glyphicon-ok-sign"></span> Bsc / Msc</h4>
               <h4><span class="glyphicon glyphicon-ok-sign"></span> B.Ed </h4>
               <h4><span class="glyphicon glyphicon-ok-sign"></span> Diploma Courses</h4>
-              <h4><span class="glyphicon glyphicon-ok-sign"></span> Motivate to SelfStudy</h4>
+              <h4><span class="glyphicon glyphicon-ok-sign"></span> <a href="#" target="_blank">For More Courses Click Here</a></h4>
             </div>
             <div id="menu3" class="tab-pane fade">
               <h4><span class="glyphicon glyphicon-ok-sign"></span> BCA / MCA</h4>
