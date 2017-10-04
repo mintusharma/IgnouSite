@@ -19,27 +19,32 @@ body{clear: both; margin: 0 auto;}
   margin-left:6%;
   margin-bottom:10px;
   margin-top:10px;
-  height:350px;
+  height:400px;
   padding: 0;
   background-color: white;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 
 }
+
+/* Mintu mene thoda sa tweak kiya hai or tu dekh le and css ki to kya kahne teri _ Wah! wah!   */
+/* Bapas pahle jaisa krna hia to comment ki hui css on kar de or assignment.php me image bala tag remove kr ke jo comment karke mene rakha hai tera tag use on kar lio*/
+
+
 .card_image{
-  height:70%;
+  height:auto;
   margin-top:4%;
   width:80%;
   color: white;
   margin-left:10%;
-  background-color:navy;
+  /*background-color:navy;*/
   margin-bottom:2%;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  /*box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);*/
 }
 .card_image img{
-  height:90%;
-  margin-top:5%;
-  width:118%;
-  margin-left:-9%;
+  width: 100%;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
 
 }
 /* button css start here*/

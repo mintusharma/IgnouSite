@@ -20,7 +20,8 @@ $urlp = 'https://webservices.ignou.ac.in/assignments/mca/';
     <div class="col-sm-12 bca">BCA</div>
     <div class="col-sm-3 sub_cards">
       <div class="col-sm-12 card_image">
-        <span style="font-size:2.5em;margin-left:70px; margin-top:52%;">1st SEMESTER</span>
+        <!-- <span style="font-size:2.5em;margin-left:70px; margin-top:52%;">1st SEMESTER</span> -->
+        <img src="images/ignousite-iconn.png" class="img-responsive" alt="assignment image">
       </div>
       <div class="col-sm-12 card_button">
         <a href="<?php echo $url;?>2017-18/BCA%20SEMESTER-I_2.pdf" target="_blank"><button type="button" class="btn  btn-primary btn-block">July - January ( 2017 - 2018 )</button></a>

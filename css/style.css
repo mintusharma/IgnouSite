@@ -203,9 +203,15 @@ footer {
   background-color:#171717;
 }
 .footertext p, a{
-  color: #ffffff;
+  color: #2d2d2d;
   font-size: 1.5rem;
 }
+
+.real_footer_text p{
+  color: #fff;
+  font-size: 2rem;
+}
+
 footer a:hover {
   color: #000080;
   text-decoration: none;
