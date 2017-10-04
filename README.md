@@ -27,4 +27,4 @@ If you don't know how to do that then use this online free tool (Only few click 
 * [Online Icon Generater](http://fa2png.io/)
 
 FontAwesome in the form of SVG (For easiness _D)
-*[Fontawesome SVG](https://github.com/encharm/Font-Awesome-SVG-PNG/tree/master/white/svg)
+* [Fontawesome SVG](https://github.com/encharm/Font-Awesome-SVG-PNG/tree/master/white/svg)
