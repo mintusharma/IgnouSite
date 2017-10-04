@@ -1,3 +1,13 @@
+/* Global Css for elements */
+*{
+  font-family: 'Roboto', sans-serif;
+}
+.btn{
+  border-radius: 0;
+}
+
+/* Global Css for elements ends*/
+
 
 /* Navigationbar Style Start Here*/
 .navbar {
@@ -100,7 +110,7 @@
 
 .text-center a{
   text-decoration: none;
-  color:black;
+  /*color:black;*/
 }
 .sideform{
   background-color: whitesmoke;
@@ -117,10 +127,10 @@
   }
   .sideform2{
     min-width: 100%;
-    }
-    .tabcontainer2{
-        height:550px; 
-    }
+  }
+  .tabcontainer2{
+    height:550px;
+  }
 }
 
 .service-container{
@@ -131,7 +141,7 @@
   background-color: white;
   border: 5px solid whitesmoke;
   padding:20px;
-  height:87%; 
+  height:87%;
 }
 #menu1{
   padding:52px;
@@ -160,16 +170,16 @@
 /*project  css end here */
 
 /*project list buttons css start here */
- .btn2:after {
-    font-family: "Glyphicons Halflings";
-    content: "\e114";
-    float: left;
-    margin-right:15px;
-  }
-  /* Icon when the collapsible content is hidden */
-  .btn2.collapsed:after {
-    content: "\e080";
-  }
+.btn2:after {
+  font-family: "Glyphicons Halflings";
+  content: "\e114";
+  float: left;
+  margin-right:15px;
+}
+/* Icon when the collapsible content is hidden */
+.btn2.collapsed:after {
+  content: "\e080";
+}
 /*project list buttons css end here */
 
 
@@ -183,21 +193,21 @@
 }
 
 footer {
-  background-color: red;
+  /*background-color: red;*/
   color: #f5f5f5;
   padding: 32px;
   width:100%;
 }
 .footertext{
   height:30%;
-  margin-top: 5px;
-  background-color:black;
+  background-color:#171717;
 }
-.footertext a {
+.footertext p, a{
   color: #ffffff;
+  font-size: 1.5rem;
 }
 footer a:hover {
-  color: red;
+  color: #000080;
   text-decoration: none;
 }
 
@@ -306,48 +316,48 @@ textarea{
 
 /*Tutorials Page style start here*/
 .tutorials{
-    height:200px;
-   background-image: url(../images/Tutorial.png);
+  height:200px;
+  background-image: url(../images/Tutorial.png);
   background-repeat: no-repeat;
 }
 /*
 .tutorials h1{
-    padding-top:7%;
-    font-size:5em;
-    color: red;
-    font:comic sans ms;
-  }
-*/
-  .card_views2{
-    height:auto;
-  }
-  .sub_cards2{
-    margin-left:6%;
-    margin-bottom:10px;
-    margin-top:10px;
-    height:300px;
-    padding: 0;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-
-  }
-  .card_image2{
-    height:74.4%;
-    margin-bottom:2%;
-  }
-.card_image2 img{
-    height: 100%;
-    width: 100%;
+padding-top:7%;
+font-size:5em;
+color: red;
+font:comic sans ms;
 }
-  .card_button2{
-    height:20%;
-    margin:0;
-    border:none;
-    padding: 0;
-  }
+*/
+.card_views2{
+  height:auto;
+}
+.sub_cards2{
+  margin-left:6%;
+  margin-bottom:10px;
+  margin-top:10px;
+  height:300px;
+  padding: 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+
+}
+.card_image2{
+  height:74.4%;
+  margin-bottom:2%;
+}
+.card_image2 img{
+  height: 100%;
+  width: 100%;
+}
+.card_button2{
+  height:20%;
+  margin:0;
+  border:none;
+  padding: 0;
+}
 .card_button2 button:hover{
-    background-color: #311B92;
-    color: white;
-    border:none;
+  background-color: #311B92;
+  color: white;
+  border:none;
 }
 
 /* ABOUT US PAGE CSS STARTS HERE*/
@@ -383,6 +393,23 @@ textarea{
   color: #00007c;
   font-family: ubuntu;
   text-align: justify;
+}
+.social_profiles img{
+  width: 100px;
+  height: auto;
+}
+.social_profiles img:hover{
+  opacity: 0.7;
+  transition: fill 300ms 0s ease, stroke 300ms 0s ease, transform 300ms 0s ease, opacity 300ms 0s ease;
+}
+.social_profiles_heading {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 60px;
+  color: #fff;
+}
+.social_profiles_heading h2{
+  font-size: 3.8rem;
 }
 
 /* ABOUT US PAGE CSS ENDS HERE*/

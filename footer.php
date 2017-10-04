@@ -3,7 +3,7 @@
     <a class="up-arrow" href="#" data-toggle="tooltip" title="TO TOP">
       <span class="glyphicon glyphicon-chevron-up"></span>
     </a><br><br>
-    <p>IgnouFear No Fear About Assignment , Projects , Classes etc. <a href="ignoufear.com" data-toggle="tooltip" title="Visit w3schools">IgnouFear</a></p>
+    <p>ignousite - It's All about IGNOU</p>
   </footer>
 </div> <!-- footer ends -->
 
