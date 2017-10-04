@@ -167,7 +167,7 @@
     margin-right:15px;
   }
   /* Icon when the collapsible content is hidden */
-  .btn.collapsed:after {
+  .btn2.collapsed:after {
     content: "\e080";
   }
 /*project list buttons css end here */
@@ -306,11 +306,11 @@ textarea{
 
 /*Tutorials Page style start here*/
 .tutorials{
-    height:180px;
+    height:200px;
     background-color: blueviolet;
 }
 .tutorials h1{
-    padding-top:100px;
+    padding-top:80px;
     font-size:5em;
     color: red;
     font:comic sans ms;
@@ -323,22 +323,27 @@ textarea{
     margin-bottom:10px;
     margin-top:10px;
     height:300px;
-
+    padding: 0;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 
   }
   .card_image2{
-
-    height:70%;
-    margin-top:4%;
+    height:74.5%;
     margin-bottom:2%;
   }
-  .card_button2 button{
-    height:23%;
+.card_image2 img{
+    height: 100%;
+    width: 100%;
+}
+  .card_button2{
+    height:25%;
     margin: 0;
-
+    padding: 0;
   }
-
+.card_button2 button:hover{
+    background-color: brown;
+    color: white;
+}
 
 /* ABOUT US PAGE CSS STARTS HERE*/
 
