@@ -27,7 +27,7 @@ body{clear: both; margin: 0 auto;}
     margin-top:4%;
     width:80%;
       margin-left:10%; 
-      background-color: #00BFA5;
+      background-color: red;
     margin-bottom:2%;
       border-radius:50%; 
        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
@@ -44,9 +44,12 @@ body{clear: both; margin: 0 auto;}
     height:25%;
     margin:0px;
     padding: 0;
+    background-color:navy;
+    color: white;
     
   }
 /* button css start here*/
+/*
 
 .card_button button{
     position: relative;
@@ -85,6 +88,7 @@ body{clear: both; margin: 0 auto;}
     transition: 0s
 }
 
+*/
 /* button style end here */
 
 
