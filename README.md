@@ -24,5 +24,7 @@ For icons at Tutorials.php, use devicon, convert the icons into png using Photos
 * [Download Devicnon](http://konpa.github.io/devicon/)
 
 If you don't know how to do that then use this online free tool (Only few click are required!)
-
 * [Online Icon Generater](http://fa2png.io/)
+
+FontAwesome in the form of SVG (For easiness _D)
+*[Fontawesome SVG](https://github.com/encharm/Font-Awesome-SVG-PNG/tree/master/white/svg)
