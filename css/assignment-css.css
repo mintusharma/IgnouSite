@@ -1,22 +1,23 @@
 body{clear: both; margin: 0 auto;}
 
   .assignment{
-   background-color:cadetblue;
+   background-color:#2d4788;
     height: 250px; 
-    opacity: 0.6; 
   }
   .assignment h1{
     padding-top:10%;
     font-size:4em;
     margin: 0 auto;
-    color: navy;
+    color: white;
   }
   .card_views{
-    background-color: whitesmoke;
     height:auto;
+      margin: 0 auto;
+      padding-left:5%;
+      padding-right:5%; 
   }
 .thumbnail{
-    padding: 0;
+    padding: 0; 
     height:220px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     border-radius: 4px;
@@ -24,7 +25,7 @@ body{clear: both; margin: 0 auto;}
 .thumbnail2{
    display: block;
     padding:4px;
-    height:80px;
+    height:100px;
     margin-top:10px; 
     margin-bottom: 10px;
     line-height: 1.42857143;
@@ -39,7 +40,7 @@ body{clear: both; margin: 0 auto;}
     color: white;
     padding: 0;
     border-radius:4px; 
-      background-color: aqua;
+      background-color:gray;
    
 }
 
@@ -68,7 +69,7 @@ body{clear: both; margin: 0 auto;}
 .thumbnail2 button a{
     text-decoration: none;
     color: white;
-    font-size:14px;
+    font-size:13px;
 }
 .card_button button{ 
     border:none;
@@ -79,11 +80,14 @@ body{clear: both; margin: 0 auto;}
     font-size:0.8em;
     margin-bottom:1px; 
 }
+.card_button button:hover{
+    background-color:white;
+    color:navy;
+}
 
 
 .thumbnail2 button{
     height:100%;
-    font-size:1.5em;  
 }
 
 .thumbnail2 button a:hover{
@@ -93,24 +97,45 @@ body{clear: both; margin: 0 auto;}
 /* button style end here */
 
 .for_bca{
-    background-color: whitesmoke;
+    padding: 0; 
+    margin: 0 auto;
 }
 .for_mca{
-    background-color:whitesmoke;
-    border-left:1px solid black; 
-    
+    border-left:2px solid whitesmoke;
+    margin: 0 auto;
+    padding: 0;
 }
 
   .bca,.mca{
-    height:60px;
+    padding:10px; 
     background-color:brown;
     text-align: center;
-    font-size:2em;
-    margin-bottom:10px; 
+    font-size:2em;   
+    margin-bottom:5px;
+    margin-top:5px; 
     color:white;
   }
 .for_others{
-    margin-top:10px; 
-    background-color:darkkhaki; 
+    margin-top:10px;
+    padding-left:5%;
+    padding-right:5%;  
     }
 
+
+ul{
+    
+    padding: 0;
+    list-style-type: none;
+}
+.dropdown-content {
+    background-color: #fff;
+    margin: 0;
+    display: none;
+    min-width: 100px;
+    /* max-height: 650px; */
+    overflow-y: auto;
+    opacity: 0;
+    position: absolute;
+    z-index: 999;
+    will-change: width, height;
+}

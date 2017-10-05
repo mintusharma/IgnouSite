@@ -9,11 +9,14 @@ $urlp = 'https://webservices.ignou.ac.in/assignments/mca/';
   <div class="col-sm-12 assignment">
     <h1><b>Assignments</b></h1>
   </div>
-<div class="col-sm-12 card_views">  
+<div class="col-sm-12 card_views"> 
+  
+    
+    <div class="row">
 <div class="col-sm-6 for_bca">
     <div class="col-sm-12 bca">
     FOR BCA STUDENTS
-    </div>  
+    </div> 
 <div class="col-md-4 ">
           <div class="thumbnail">
               <div class="card_image">
@@ -82,9 +85,9 @@ $urlp = 'https://webservices.ignou.ac.in/assignments/mca/';
         </div>
     </div>
 <div class="col-sm-6 for_mca"> 
-    <div class="col-sm-12 mca">
+      <div class="col-sm-12 mca">
     FOR MCA STUDENTS
-    </div>
+    </div> 
 <div class="col-md-4 ">
           <div class="thumbnail">
               <div class="card_image">
@@ -152,10 +155,13 @@ $urlp = 'https://webservices.ignou.ac.in/assignments/mca/';
           </div>
         </div>
     </div>
+    </div>
+</div>
 <div class="col-sm-12 for_others">
-    <div class="col-sm-12 mca">
+    <div class="col-md-12 mca">
     FOR OTHER STUDENTS
     </div>
+    <div class="row">
     <div class="col-md-3 ">
           <div class="thumbnail2">
              <a href="https://webservices.ignou.ac.in/assignments" target="_blank"><button type="button" class="btn  btn-primary btn-block"><a  target="_blank" href="https://webservices.ignou.ac.in/assignments/bdp_ba.htm"> BA / BDP</a><br>
@@ -212,8 +218,7 @@ $urlp = 'https://webservices.ignou.ac.in/assignments/mca/';
              <a href="https://webservices.ignou.ac.in/assignments" target="_blank"><button type="button" class="btn  btn-primary btn-block">FOR OTHER COURSES CLICK HERE</button></a>
           </div>
         </div>
-  
-</div>
+  </div>
 </div>
 
 <?php include('footer.php'); ?>
