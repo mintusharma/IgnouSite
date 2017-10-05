@@ -1,4 +1,5 @@
 body{clear: both; margin: 0 auto;}
+<<<<<<< HEAD
   .assignment{
    background-color:cadetblue;
     height: 250px; 
@@ -45,10 +46,60 @@ body{clear: both; margin: 0 auto;}
 .card_image img{
     height:100%;
     width:100%; 
+=======
+.assignment{
+  background-image: url(../images/assignment-banner.png);
+  background-repeat: no-repeat;
+  height: 250px;
+  opacity: 0.6;
+}
+.assignment h1{
+  padding-top:10%;
+  font-size:5em;
+  margin: 0 auto;
+  color: #fff;
+}
+.card_views{
+  background-color: white;
+  height:auto;
+}
+.sub_cards{
+  margin-left:6%;
+  margin-bottom:10px;
+  margin-top:10px;
+  height:400px;
+  padding: 0;
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+/* Mintu mene thoda sa tweak kiya hai or tu dekh le and css ki to kya kahne teri _ Wah! wah!   */
+/* Bapas pahle jaisa krna hia to comment ki hui css on kar de or assignment.php me image bala tag remove kr ke jo comment karke mene rakha hai tera tag use on kar lio*/
+
+
+.card_image{
+  height:auto;
+  margin-top:4%;
+  width:80%;
+  color: white;
+  margin-left:10%;
+  /*background-color:navy;*/
+  margin-bottom:2%;
+  /*box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);*/
+}
+.card_image img{
+  width: 100%;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+>>>>>>> e1e870a4ff41607bc6b9d75e6440b67df6ccbe9f
 }
 
 /* button css start here*/
 
+<<<<<<< HEAD
   .card_button { 
     height:34.8%;
     padding:0;
@@ -66,6 +117,47 @@ body{clear: both; margin: 0 auto;}
     color: white;
     font-size:14px;
 
+=======
+.card_button {
+  height:25%;
+  margin:0px;
+  padding: 0;
+  background-color:whitesmoke;
+  color: white;
+
+}
+.card_button a,.other_course a{text-decoration: none;}
+
+.card_button button{
+  margin-top:2px;
+  padding-top:10px;
+  border:none;
+  padding-top:12px;
+  font-size:17px;
+}
+.card_button button:hover,.other_course button:hover{
+  background-color:#311B92;
+  color:white;
+  border:none;
+}
+
+/*
+
+.card_button button{
+position: relative;
+clear: both;
+border-radius:10px;
+color: white;
+background-color:#0091EA;
+border: none;
+font-size:1.2em;
+color: #FFFFFF;
+text-align: center;
+transition-duration: 0.2s;
+text-decoration: none;
+overflow: hidden;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+>>>>>>> e1e870a4ff41607bc6b9d75e6440b67df6ccbe9f
 }
 
 .card_button button{ 
@@ -78,6 +170,7 @@ body{clear: both; margin: 0 auto;}
     margin-bottom:1px; 
 }
 
+<<<<<<< HEAD
 .thumbnail2 button{
     height:100%;
     font-size:1.5em;  
@@ -85,6 +178,26 @@ body{clear: both; margin: 0 auto;}
 
 .thumbnail2 button a:hover{
     color:lime;
+=======
+.card_button button:after {
+content: " ";
+background: #ffffff;
+display: block;
+position: absolute;
+padding-top: 300%;
+padding-left: 350%;
+margin-left: -20px!important;
+margin-top: -120%;
+opacity: 0;
+transition: all 0.8s
+}
+
+.card_button button:active:after {
+padding: 0;
+margin: 0;
+opacity:0.7;
+transition: 0s
+>>>>>>> e1e870a4ff41607bc6b9d75e6440b67df6ccbe9f
 }
 
 /* button style end here */
@@ -99,6 +212,7 @@ body{clear: both; margin: 0 auto;}
 }
 
 
+<<<<<<< HEAD
   .bca,.mca{
     height:60px;
     background-color:brown;
@@ -110,5 +224,22 @@ body{clear: both; margin: 0 auto;}
 .for_others{
     margin-top:10px; 
     background-color:darkkhaki; 
+=======
+.bca,.mca{
+  height:60px;
+  background-color:brown;
+  margin-top:2px;
+  text-align: center;
+  clear: both;
+  padding: 0;
+  font-size:3.5em;
+  color:white;
 }
-
+.other_course button{
+  font-size:1.5em;
+  padding: 0;
+  height:60px;
+  margin-top:0px;
+  background-color:navy;
+>>>>>>> e1e870a4ff41607bc6b9d75e6440b67df6ccbe9f
+}

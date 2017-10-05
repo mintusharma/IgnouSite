@@ -1,61 +1,62 @@
 <!-- # Header is fetched -->
 <?php include('header.php'); ?>
 
-<div class="col-sm-12 aboutustitle">
-  <h1>Contact Us</h1>
+<div class="container-fluid about_container contact_container">
+  <h1 class="about_h1"><?php echo ucfirst("Contact Us"); ?></h1>
 </div>
 
 <!-- About us Page  bigcontainer -->
-<div class="col-sm-12">
-  <div class="contactform">
-    <!-- Container (Contact Section) -->
-    <div class="container-fluid bg-grey">
-      <h2 class="text-center">CONTACT US</h2>
-      <br><br>
-      <div class="row">
-        <div class="col-sm-5">
-          <p>Contact us and we'll get back to you within 24 hours.</p>
-          <p><span class="glyphicon glyphicon-map-marker"></span> Dwarka, Delhi</p>
-          <p><span class="glyphicon glyphicon-phone"></span> +91 9717656004</p>
-          <p><span class="glyphicon glyphicon-envelope"></span> ignoufear@gmail.com</p>
-        </div>
-        <div class="col-sm-7">
-          <div class="row">
-            <div class="col-sm-6 form-group">
-              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+<div class="row contact_row">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <div class="row">
+      <div class="contact_heading">
+        <p>We would love to hear from you. Tell us what you think about ignousite or you want to suggest something, go ahead and send us your message.</p>
+        <p>If you have found any bug or issue in the Ignousite, Let us know. We'll add your name to our contrubutors page. See ya!</p>
+      </div>
+      <div class=" col-md-12 border_this_row">
+        <div class="col-md-6">
+          <div class="contact_main_wrapper">
+            <div class="contact_info_heading">
+              <h4>Contact Information</h4>
             </div>
-            <div class="col-sm-6 form-group">
-              <input class="form-control" id="mobile" name="mobile" placeholder="Mobile" type="tel" required>
-            </div>
+            <ul class="contact_ul">
+              <li><span class="	glyphicon glyphicon-comment"></span> Telegram Contact</li>
+              <li><span class="glyphicon glyphicon-send"></span> message@ignousite.com</li>
+              <li><span class="glyphicon glyphicon-phone-alt"></span> +91 99xxxxxxxx, +91 99xxxxxxxx</li>
+              <li><span class="glyphicon glyphicon-map-marker"></span> West Sagarpur, New delhi - 110046</li>
+            </ul>
           </div>
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-          <br>
-          <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5" cols="1"></textarea><br>
-          <div class="row">
-            <div class="col-sm-12 form-group">
-              <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+        <div class="col-md-6">
+          <div class="contact_main_wrapper" style="border-left:.06px solid #879bbd;">
+            <div class="contact_info_heading">
+              <h4>Message Ignousite</h4>
             </div>
+            <form action="#">
+              <div class="form-group">
+                <input type="text" class="form-control" id="name" placeholder="Name" name="name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+              </div>
+              <div class="form-group">
+                <input type="tel" class="form-control" id="tel" placeholder="Mobile No" name="tel">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" rows="8" id="comment" name="message" placeholder="Your Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-default">Send Message</button>
+            </form>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <div class="col-md-2"></div>
 </div>
 
-<div class="col-sm-12">
-  <div class="col-sm-5 ">
-    <div class="planguage">
-    </div>
-  </div>
 
-  <div class="col-sm-5" >
-    <!-- Add Google Maps -->
-    <div class="map">
-      <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAltuuYffzRzP5TVONS-_pfywgMiBg_YFQ'></script><div style='overflow:hidden;height:400px;width:100%;'><div id='gmap_canvas' style='height:400px;width:100%;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://indiatvnow.com/'>https://IndiaTVnow.com</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=3aeb1eb26f37e1bdf1358c493c3fe44e50dce595'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(28.6014455,77.08594519999997),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(28.6014455,77.08594519999997)});infowindow = new google.maps.InfoWindow({content:'<strong>Contact me</strong><br>Dwarka Sector 1A<br>110045 New Delhi<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
-
-    </div>
-  </div>
-</div>
 
 <!-- # Footer is fetched -->
 <?php include('footer.php'); ?>
