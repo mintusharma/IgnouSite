@@ -1,133 +1,114 @@
 body{clear: both; margin: 0 auto;}
   .assignment{
-   background-image: url(../images/assignment.jpeg);
-  background-repeat: no-repeat;
+   background-color:cadetblue;
     height: 250px; 
     opacity: 0.6; 
   }
   .assignment h1{
     padding-top:10%;
-    font-size:5em;
+    font-size:4em;
     margin: 0 auto;
     color: navy;
   }
   .card_views{
-    background-color: white;
+    background-color: whitesmoke;
     height:auto;
   }
-  .sub_cards{
-    margin-left:6%;
-    margin-bottom:10px;
-    margin-top:10px;
-    height:350px;
+.thumbnail{
     padding: 0;
-    background-color: white;
+    height:220px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-
-  }
-  .card_image{
-    height:70%; 
-    margin-top:4%;
-    width:80%;
-    color: white;
-    margin-left:10%; 
-    background-color:navy;
-    margin-bottom:2%;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  }
-.card_image img{
-    height:90%;
-    margin-top:5%; 
-    width:118%;
-    margin-left:-9%; 
-    
+    border-radius: 4px;
 }
+.thumbnail2{
+   display: block;
+    padding:4px;
+    height:80px;
+    margin-top:10px; 
+    margin-bottom: 10px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+  .card_image{
+    height:65%;
+    width:100%;
+    color: white;
+    padding: 0;
+    border-radius:4px; 
+      background-color: aqua;
+   
+}
+
+.card_image img{
+    height:100%;
+    width:100%; 
+}
+
 /* button css start here*/
 
   .card_button { 
-    height:25%;
-    margin:0px;
-    padding: 0;
-    background-color:whitesmoke;
-    color: white;
-    
-  }
-.card_button a,.other_course a{text-decoration: none;}
-
-.card_button button{
-    margin-top:2px; 
-    padding-top:10px; 
-    border:none;
-    padding-top:12px; 
-    font-size:17px; 
-}
-.card_button button:hover,.other_course button:hover{
-    background-color:#311B92;
-    color:white;
-    border:none; 
-}
-
-/*
-
-.card_button button{
-    position: relative;
-    clear: both;
-    border-radius:10px; 
-    color: white;
-    background-color:#0091EA;
-    border: none;
-    font-size:1.2em;
-    color: #FFFFFF;
-    text-align: center;
-   transition-duration: 0.2s;
-    text-decoration: none;
-    overflow: hidden;
-     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
-
-
-.card_button button:after {
-    content: " ";
-    background: #ffffff;
-    display: block;
-    position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
-    margin-left: -20px!important;
-    margin-top: -120%;
-    opacity: 0;
-    transition: all 0.8s
-}
-
-.card_button button:active:after {
-    padding: 0;
+    height:34.8%;
+    padding:0;
     margin: 0;
-    opacity:0.7;
-    transition: 0s
+    background-color:white;
+    color: white;
+  }
+
+.card_button a , .thumbnail2 a{
+    text-decoration: none;
+    color: white;
+}
+.thumbnail2 button a{
+    text-decoration: none;
+    color: white;
+    font-size:14px;
+
 }
 
-*/
+.card_button button{ 
+    border:none;
+    height:50%;
+    color:white;
+    background-color: navy;
+    border-radius: 0px;
+    font-size:0.8em;
+    margin-bottom:1px; 
+}
+
+.thumbnail2 button{
+    height:100%;
+    font-size:1.5em;  
+}
+
+.thumbnail2 button a:hover{
+    color:lime;
+}
+
 /* button style end here */
 
-
-
+.for_bca{
+    background-color: whitesmoke;
+}
+.for_mca{
+    background-color:whitesmoke;
+    border-left:1px solid black; 
+    
+}
 
 
   .bca,.mca{
     height:60px;
     background-color:brown;
-    margin-top:2px; 
     text-align: center;
-    clear: both;
-    padding: 0;
-    font-size:3.5em;
-      color:white;
+    font-size:2em;
+    margin-bottom:10px; 
+    color:white;
   }
-.other_course button{
-    font-size:1.5em; 
-    padding: 0;
-    height:60px; 
-    margin-top:0px;
-    background-color:navy; 
+.for_others{
+    margin-top:10px; 
+    background-color:darkkhaki; 
 }
 
