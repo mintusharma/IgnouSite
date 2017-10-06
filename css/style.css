@@ -419,7 +419,8 @@ textarea{
 
 .tutBtn{
    width: 100%;
-    background-color: rgb(32,67,137);
+    background-color: navy;
+    color: white;
     }
 .tutHeader{
     width: 100%;
