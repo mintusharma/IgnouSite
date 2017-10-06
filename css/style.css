@@ -369,9 +369,9 @@ textarea{
 
 .tutCard{
     width:320px;
-    padding: 15px;
-   
-    height: 250px;
+   margin: 0;
+    padding: 0;
+   height: 250px;
 }
 .tutBtn{
    width: 100%;
@@ -386,6 +386,8 @@ textarea{
     color: white;
     margin: 15px;
 }
+
+/*Downloads page css*/
 .service-container2{
     margin-left: 180px;
     width: 100%;
