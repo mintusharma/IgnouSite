@@ -168,6 +168,14 @@
   text-align: center;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
+.other_program_links{
+    padding-left:20px;
+    margin-top:10px;
+    margin-left:10px; 
+    padding-top:10px; 
+    font-size:30px; 
+}
+
 /*project css start here */
 
 .project-list{

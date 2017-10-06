@@ -68,14 +68,14 @@
     <div class="tabcontainer2">
       <br>
       <ul class="nav nav-tabs">
-        <li class="active"><a data-toggle="tab" href="#home">WHY IGNOU</a></li>
-        <li><a data-toggle="tab" href="#menu1">GRADE CARD</a></li>
+        <li><a data-toggle="tab" href="#home">WHY IGNOU</a></li>
+        <li class="active"><a data-toggle="tab" href="#menu1">GRADE CARD</a></li>
         <li><a data-toggle="tab" href="#menu2">PROGRAMS</a></li>
         <li><a data-toggle="tab" href="#menu3">PROJECTS</a></li>
       </ul>
 
       <div class="tab-content" style="height: 320px;">
-        <div id="home" class="tab-pane fade in active">
+        <div id="home" class="tab-pane fade">
           <h4><span class="glyphicon glyphicon-ok-sign"></span> Flexible Admission Rules</h4>
           <h4><span class="glyphicon glyphicon-ok-sign"></span> Individualised Study Flexibility in Terms of Place, Pace & Duration</h4>
           <h4><span class="glyphicon glyphicon-ok-sign"></span> Nationwide Student Support Services Network</h4>
@@ -85,7 +85,7 @@
           <h4><span class="glyphicon glyphicon-ok-sign"></span> Motivate to SelfStudy</h4>
         </div>
 
-        <div id="menu1" class="tab-pane fade">
+        <div id="menu1" class="tab-pane fade in active">
           <h4>Check Your Grade Card</h4>
           <div class="col-sm-5">
             <form  action="https://webservices.ignou.ac.in/GradecardM/Result.asp" target="#myModel" method="post">
@@ -117,18 +117,20 @@
 
             </div>
             <div class="col-sm-5" style="border-left: 1px solid;">
-              <form  action="https://webservices.ignou.ac.in/GradecardM/Result.asp" target="#myModel">
+              <form  action="https://gradecard.ignou.ac.in/gradecardB/Result.asp" target="_blank">
                 <span style="color: black; font-size:15px; ">
-                  <b>For BCA/MCA/MP/MPB</b></span>
+                  <b>Selected programs of BDP</b></span>
                   <div class="form-group">
                     <div class="col-sm-12">
-                      <select name="Program" class="form-control">
-                        <option value="">Select Program</option>
-                        <option value="BCA">BDP</option>
-                        <option value="MCA">MCA</option>
-                        <option value="MP">MP</option>
-                        <option value="MPB">MPB</option>
-                      </select>
+                     <select name="Program" class="form-control">
+                         <option >Select Program</option>
+                          <option value="ASSO">ASSO</option>
+                         <option value="BA ">BA </option>
+                         <option value="BCOM ">BCOM </option>
+                         <option value="BDP">BDP </option>
+                         <option value="BSC">BSC </option>
+
+                        </select>
                     </div>
                   </div>
                   <div class="form-group">
@@ -144,6 +146,9 @@
                   </div>
                 </form>
               </div>
+            <div class="col-sm-5 other_program_links">
+            <a href="https://webservices.ignou.ac.in/GradecardR/Result.asp" target="_blank">For Other Program <span style="font-size:20px;">Click Here</span></a>
+            </div>
             </div>
 
             <div id="menu2" class="tab-pane fade">
