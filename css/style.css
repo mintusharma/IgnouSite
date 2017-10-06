@@ -156,8 +156,22 @@
 #menu1 h4{
   font-size:2em;
   text-align: center;
-  color: crimson;
+  color: white;
+background-color: #000088;
   margin-top:-40px;
+}
+#menu2 a{
+    padding: 5px;
+    color:#000088;
+    font-weight: 500;
+    display: block;
+    text-decoration: none;
+    font-size:1.5em; 
+    opacity:0.5;
+}
+#menu2 a:hover{
+    color:navy;
+     opacity:1;
 }
 
 .sideinfo{
@@ -509,3 +523,25 @@ div.contact_main_wrapper form button{
 
 
 /* CONTACT ROW ENDS HERE _D */
+
+.program_list{
+    padding-right:10px;
+   
+}
+.result h3{
+    margin: 0;
+    text-align: center;
+    color:white;
+    background-color:#000088; 
+    font-size: 2em;
+}
+input[type="submit"]:hover {
+	background:#000088;
+    color:#fff;
+}
+
+.result label{
+    padding-top:20px;
+    font-size:1.2em;
+    color: #000088;
+}
