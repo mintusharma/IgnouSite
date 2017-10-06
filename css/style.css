@@ -327,7 +327,23 @@ textarea{
 .projectlist{
   height: auto;
   min-width:70%;
+  font-size:1.2em; 
 }
+.projectlist a{
+    text-decoration: none;
+    font-size:1.2em; 
+}
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #000088;
+    border-color: #ddd;
+}
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: 1px solid #ddd;
+    margin-left: 40px;
+}
+
+
 .sideform2{
   width:30%;
   color: black;
@@ -341,6 +357,19 @@ textarea{
   background-image: url(../images/Tutorial.png);
   background-repeat: no-repeat;
 }
+.imp_note{
+    background-color:whitesmoke;
+    padding: 10px;
+    font-size:2em;
+    color: white;
+}
+.subnote{
+    background-color:#000088;
+    padding: 20px;
+    margin-left:1.5%;
+    margin-right:0.2%; 
+}
+
 /*
 .tutorials h1{
 padding-top:7%;
