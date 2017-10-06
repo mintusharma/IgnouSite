@@ -367,10 +367,7 @@ textarea{
 /*Tutorials Page style start here*/
 
 .tutCard{
-    width:320px;
-   margin: 0;
-    padding: 0;
-   height: 250px;
+    
 }
 .tutBtn{
    width: 100%;
