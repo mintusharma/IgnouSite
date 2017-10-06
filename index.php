@@ -144,7 +144,7 @@
               </div>
             
             <div class="col-sm-5 other_program_links">
-            <a href="https://webservices.ignou.ac.in/GradecardR/Result.asp" target="_blank">For Other Program <span style="font-size:15px;">Click Here</span></a>
+            <a href="https://webservices.ignou.ac.in/GradecardR/Result.asp" target="_blank"><span style="font-size:17px; color:#000088;">For Other Program Click Here</span></a>
             </div>
             </div>
 
@@ -189,39 +189,9 @@
         </div>
       </div>
 
-      <div class="col-sm-4 sideform">
-        <form class="form-horizontal" target="_self" >
-          <h2 style="text-align: center">Quick Contact</h2><br>
-          <div class="form-group">
-            <label class="control-label col-sm-3" for="email">Name : </label>
-            <div class="col-sm-9">
-              <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="control-label col-sm-3" for="pwd">Email : </label>
-            <div class="col-sm-9">
-              <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="control-label col-sm-3" for="pwd">Query : </label>
-            <div class="col-sm-9">
-              <textarea class="form-control" placeholder="Query" ></textarea>
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="control-label col-sm-3" for="pwd">Mobile : </label>
-            <div class="col-sm-9">
-              <input type="tel" class="form-control" id="mobile" placeholder="Enter Mobile " name="mobile">
-            </div>
-          </div>
-          <div class="form-group">
-            <div class="col-sm-offset-3 col-sm-10">
-              <input type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal" value="Submit">
-            </div>
-          </div>
-        </form>
+      <div class="col-sm-4 quickacces">
+          <div class="col-sm-12 qac">Quick Access</div>
+          
       </div>
 </div>
 
@@ -255,9 +225,9 @@
 <div class="row" style="margin-left:0;margin-right:0;">
       <div class="col-sm-12 service-container">
     <div class="col-sm-8">
-        <div class="container-fluid text-center" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background-color:white;">
-          <h2>SERVICES</h2>
-          <h4>What we offer</h4>
+        <div class="container-fluid text-center" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background-color:white;border:3px solid #000088;">
+          <div class="services"><h2>SERVICES</h2>
+          <h4>What we offer</h4></div>
           <br>
           <div class="row">
             <a href="#">
@@ -310,40 +280,39 @@
       </div>
           
           <div class="col-sm-4 sideinfo">
-        <h2>What We Created</h2>
+        <div class="col-sm-12 qac">Quick Contact</div>
         <div class="project-list">
-          <marquee class="mark" direction="down" onmouseover="this.stop()" onmouseout="this.start()">
-            <div class="row text-center2">
-              <div class="col-sm-12">
-                <div class="thumbnail">
-                  <img src="http://www.w3schools.com/bootstrap/paris.jpg" alt="Paris" width="400" height="300">
-                  <p><strong>Paris</strong></p>
-                  <p>Yes, we built Paris</p>
-                </div>
-              </div>
-              <div class="col-sm-12">
-                <div class="thumbnail">
-                  <img src="http://www.w3schools.com/bootstrap/newyork.jpg" alt="New York" width="400" height="300">
-                  <p><strong>New York</strong></p>
-                  <p>We built New York</p>
-                </div>
-              </div>
-              <div class="col-sm-12">
-                <div class="thumbnail">
-                  <img src="http://www.w3schools.com/bootstrap/sanfran.jpg" alt="San Francisco" width="400" height="300">
-                  <p><strong>San Francisco</strong></p>
-                  <p>Yes, San Fran is ours</p>
-                </div>
-              </div>
-              <div class="col-sm-12">
-                <div class="thumbnail">
-                  <img src="http://www.w3schools.com/bootstrap/paris.jpg" alt="San Francisco" width="400" height="300">
-                  <p><strong>San Francisco</strong></p>
-                  <p>Yes, San Fran is ours</p>
-                </div>
-              </div>
+          <form class="form-horizontal" target="_self" >
+          <div class="form-group">
+            <label class="control-label col-sm-3" for="email">Name : </label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
             </div>
-          </marquee>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-3" for="pwd">Email : </label>
+            <div class="col-sm-9">
+              <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-3" for="pwd">Query : </label>
+            <div class="col-sm-9">
+              <textarea class="form-control" placeholder="Query" maxlength="150" ></textarea>
+            </div><br>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-3" for="pwd">Mobile : </label>
+            <div class="col-sm-9">
+              <input type="tel" class="form-control" id="mobile" placeholder="Enter Mobile " name="mobile">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-3 col-sm-10">
+              <input type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal" value="Submit">
+            </div>
+          </div>
+        </form>
         </div>
       </div>
           
