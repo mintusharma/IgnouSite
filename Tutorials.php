@@ -6,7 +6,7 @@
 <div class="row">
 
     <div class="col-sm-12 tutHeader">
-    Tutorials
+    TUTORIALS
     </div> 
     <div class="col-sm-12">
 <div class="col-sm-3  ">
