@@ -352,7 +352,7 @@ textarea{
 }
 
 /*Tutorials Page style start here*/
-<<<<<<< HEAD
+
 .tutCard{
     width:400px;
     padding: 15px;
@@ -372,7 +372,10 @@ textarea{
     color: white;
     margin: 15px;
 }
-
+.service-container2{
+    margin-left: 180px;
+    width: 100%;
+}
 /* ABOUT US PAGE CSS STARTS HERE*/
 
 .about_container{
