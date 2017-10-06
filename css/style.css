@@ -91,64 +91,33 @@
   opacity: .4;
   width:100px;
 }
+
+/* grade card and result tab css start here */
 .tabcontainer2{
   width:100%;
-  margin: 0 auto;
-  background-color:whitesmoke;
-  height:345px;
+  height:260px;
+    margin-top:5px;
+    margin-bottom:5px;
+  background-color:navy;
+  height:auto;
+    border:3px solid navy; 
+    border-radius:4px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
-
-
-.logo-small {
-  color:navy;
-  font-size: 60px;
+.tabcontainer2 a{
+    color: #fff;
+}
+.nav>li>a:hover{
+    background-color: #fff;
+    color:#000088; 
 }
 
-.text-center{
-  width:100%;
-  margin: 0 auto;
-  background-color: whitesmoke;
-}
-.text-center2{
-  width:100%;
-  margin: 0 auto;
-}
 
-.text-center a{
-  text-decoration: none;
-  /*color:black;*/
-}
-.sideform{
-  background-color: whitesmoke;
-  width: 32%;
-  margin: 0 auto;
-  display:inline-block;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-
-}
-@media screen and (max-width: 768px) {
-  .sideform{
-    width: 96%;
-    margin-top:5%;
-  }
-  .sideform2{
-    min-width: 100%;
-  }
-  .tabcontainer2{
-    height:550px;
-  }
-}
-
-.service-container{
-  margin-top: 10px;
-
-}
 #home, #menu1,#menu2,#menu3{
   background-color: white;
   border: 5px solid whitesmoke;
   padding:20px;
-  height:87%;
+  height:100%;
 }
 #menu1{
   padding:52px;
@@ -173,21 +142,128 @@ background-color: #000088;
     color:navy;
      opacity:1;
 }
+/* grade card and result tab css end here */
+.logo-small {
+  color:navy;
+  font-size: 60px;
+}
 
-.sideinfo{
+.text-center{
+  width:100%;
+  margin: 0 auto;
   background-color: whitesmoke;
-  width: 32%;
-  height: 550px;
+}
+.text-center2{
+  width:100%;
+  margin: 0 auto;
+}
+
+.text-center a{
+  text-decoration: none;
+  /*color:black;*/
+}
+
+
+/* media query start here */
+@media screen and (max-width:768px) {
+  .sideform{
+    margin-top:5%;
+      width:100%; 
+  }
+  .sideform2{
+    min-width: 100%;
+  }
+    .sideinfo{
+        margin-top:3%; 
+    }
+    .tabcontainer2{
+        height:700px;
+        background-color:white;
+    }
+    
+}
+
+/* media query end here */
+
+/* service-container css start here */
+.service-container{
+  margin-top:5px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom:5px;
+    padding-left:5%;
+    padding-right:5%; 
+    border-radius:4px; 
+    background-color:whitesmoke;
+}
+.services{
+    background-color:navy;
+    color: white;
+}
+
+
+ /* service-container css end here */
+
+/* side quick access form css start here */
+.sideinfo{
+  background-color: white;
   color: black;
+    height:560px;
+    margin-bottom:10px; 
+    overflow: hidden;
+    border:4px solid #000088; 
+    border-radius:4px;
+    padding: 0;
   text-align: center;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
+/* side form css style start here */
+
+.sideform{
+  background-color:whitesmoke; 
+  margin-left:0px;
+  margin-right:0px;
+  border-radius:4px;
+  padding: 0;
+    border:3px solid #000088; 
+  margin-top:5px; 
+  display:inline-block;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+.sideform2{
+  width:29%;
+  padding: 0;
+  border:10px solid navy; 
+  color: black;
+  border-radius:4px; 
+  background-color:whitesmoke;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.form-horizontal .form-group {
+    margin-right:0px;
+    margin-left:0px;
+}
+
+.qac{
+    clear: both;
+    color:#fff;
+    text-align: center;
+    margin-bottom:10px; 
+    font-size:2.1em; 
+    background-color:#000088; 
+}
+/* side form css style end here  */
+/* side form css end here */
+
 .other_program_links{
     padding-left:20px;
     margin-top:10px;
     margin-left:10px;
-    padding-top:10px;
-    font-size:30px;
+    padding-top:15px;
+    font-size:17px;
 }
 
 /*project css start here */
@@ -218,16 +294,6 @@ background-color: #000088;
     margin-left: 40px;
 }
 
-/* side form css style start here */
-.sideform2{
-  width:30%;
-  color: black;
-    border-radius:4px; 
-    background-color:whitesmoke;
-  text-align: center;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
-/* side form css style end here  */
 
 /*project  css end here */
 
@@ -257,7 +323,11 @@ background-color: #000088;
 }
 
 .bigcontainer{
-  width: 99.85%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left:5%;
+    padding-right: 5%;
+    background-color:white;
 }
 
 /*footer {
@@ -284,8 +354,9 @@ footer a:hover {
   text-decoration: none;
 }*/
 
-textarea{
-  resize: vertical;
+textarea.form-control {
+    height:65px; 
+    resize: none;
 }
 
 
