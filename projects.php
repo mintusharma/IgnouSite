@@ -113,8 +113,9 @@
     
     
     <div class="col-sm-3 sideform2">
+        <div class="col-sm-12 qac">Quick Access</div>
       <form class="form-horizontal" target="_self" >
-        <h2 style="text-align: center">Quick Access</h2><br>
+        <br>
         <div class="form-group">
           <label class="control-label col-sm-3" for="email">Name : </label>
           <div class="col-sm-8">

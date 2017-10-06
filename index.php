@@ -60,9 +60,7 @@
   </div>
 </div>
 
-
-<br>
-<div class="col-sm-12 bigcontainer">
+<div class="row bigcontainer">
   <div class="col-sm-8">
     <div class="tabcontainer2">
       <br>
@@ -73,7 +71,7 @@
         <li><a data-toggle="tab" href="#menu3">RESULT</a></li>
       </ul>
 
-      <div class="tab-content" style="height: 320px;">
+      <div class="tab-content" style="height:280px;">
         <div id="home" class="tab-pane fade">
           <h4><span class="glyphicon glyphicon-ok-sign"></span> Flexible Admission Rules</h4>
           <h4><span class="glyphicon glyphicon-ok-sign"></span> Individualised Study Flexibility in Terms of Place, Pace & Duration</h4>
@@ -146,7 +144,7 @@
               </div>
             
             <div class="col-sm-5 other_program_links">
-            <a href="https://webservices.ignou.ac.in/GradecardR/Result.asp" target="_blank">For Other Program <span style="font-size:20px;">Click Here</span></a>
+            <a href="https://webservices.ignou.ac.in/GradecardR/Result.asp" target="_blank">For Other Program <span style="font-size:15px;">Click Here</span></a>
             </div>
             </div>
 
@@ -155,12 +153,14 @@
              <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span>Bachelor's Degree</a>
                 <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span>Master's Degree</a>
                 <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span>Certificate Programmes</a>
-                <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span>PG and Advance Certificate</a>
+                <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span>PG Certificate</a>
                 <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span> Doctoral Degree</a>
             </div>
                 
                 <div class="col-sm-5">
-            <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span>PG and Advance Diploma</a>
+            <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span>PG Diploma</a>
+                    <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span>Advance Diploma</a>
+                     <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span>Advance Certificate</a>
                     <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span>Non-Credit Programmes</a>
                     <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span> M.Phil Programme</a>  
             </div>
@@ -190,8 +190,8 @@
       </div>
 
       <div class="col-sm-4 sideform">
-        <form class="form-horizontal" target="_self" >
-          <h2 style="text-align: center">Quick Contact</h2><br>
+          <div class="col-sm-12 qac">Quick Access</div>
+          <form class="form-horizontal" target="_self" >
           <div class="form-group">
             <label class="control-label col-sm-3" for="email">Name : </label>
             <div class="col-sm-9">
@@ -207,8 +207,8 @@
           <div class="form-group">
             <label class="control-label col-sm-3" for="pwd">Query : </label>
             <div class="col-sm-9">
-              <textarea class="form-control" placeholder="Query" ></textarea>
-            </div>
+              <textarea class="form-control" placeholder="Query" maxlength="150" ></textarea>
+            </div><br>
           </div>
           <div class="form-group">
             <label class="control-label col-sm-3" for="pwd">Mobile : </label>
@@ -222,9 +222,10 @@
             </div>
           </div>
         </form>
+        <br>
       </div>
-    </div>
-    <br>
+</div>
+
 
     <!-- Model popup box -->
     <div class="modal fade popupmodel" id="myModal" role="dialog">
@@ -249,12 +250,15 @@
       </div>
     </div>
 
-    <!-- Container (Services Section) -->
-    <div class="col-sm-12 service-container">
-      <div class="col-sm-8">
-        <div class="container-fluid text-center" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-          <h2>SERVICES</h2>
-          <h4>What we offer</h4>
+<!--    end of model popup-->
+
+<!-- Container (Services Section) -->
+<div class="row" style="margin-left:0;margin-right:0;">
+      <div class="col-sm-12 service-container">
+    <div class="col-sm-8">
+        <div class="container-fluid text-center" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background-color:white;border:3px solid #000088;">
+          <div class="services"><h2>SERVICES</h2>
+          <h4>What we offer</h4></div>
           <br>
           <div class="row">
             <a href="#">
@@ -305,8 +309,9 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4 sideinfo">
-        <h2>What We Created</h2>
+          
+          <div class="col-sm-4 sideinfo">
+        <div class="col-sm-12 qac">Quick Access</div>
         <div class="project-list">
           <marquee class="mark" direction="down" onmouseover="this.stop()" onmouseout="this.start()">
             <div class="row text-center2">
@@ -342,22 +347,13 @@
           </marquee>
         </div>
       </div>
-
+          
+          
+    </div>
+    
     </div> <!--  End of Service Cpntainer -->
 
-<div class="col-sm-12 implinks" style="margin-top:10px; ">
-  <div class="col-sm-8" style="height: 300px;">
-    <div class="col-sm-12" style="height: 290px;background-color: cadetblue;margin-top:5px; ">
-      <h3>Some Important Links</h3>
-    </div>
 
-  </div>
-  <div class="col-sm-4" style="height: 300px;">
-    <div class="col-sm-12" style="height: 290px;background-color:cadetblue;margin-top:5px; margin-left: -5px">
-      <h4>Follow Us</h4>
-    </div>
-  </div>
-</div>
 
 <!-- # Footer is fetched -->
 <?php include('footer.php'); ?>
