@@ -171,9 +171,9 @@
 .other_program_links{
     padding-left:20px;
     margin-top:10px;
-    margin-left:10px; 
-    padding-top:10px; 
-    font-size:30px; 
+    margin-left:10px;
+    padding-top:10px;
+    font-size:30px;
 }
 
 /*project css start here */
@@ -327,11 +327,11 @@ textarea{
 .projectlist{
   height: auto;
   min-width:70%;
-  font-size:1.2em; 
+  font-size:1.2em;
 }
 .projectlist a{
     text-decoration: none;
-    font-size:1.2em; 
+    font-size:1.2em;
 }
 .panel-default>.panel-heading {
     color: #fff;
@@ -367,7 +367,7 @@ textarea{
     background-color:#000088;
     padding: 20px;
     margin-left:1.5%;
-    margin-right:0.2%; 
+    margin-right:0.2%;
 }
 
 /*
@@ -453,6 +453,7 @@ font:comic sans ms;
 }
 .social_profiles img:hover{
   opacity: 0.7;
+  transform: translate3d(0,-5px,0);
   transition: fill 300ms 0s ease, stroke 300ms 0s ease, transform 300ms 0s ease, opacity 300ms 0s ease;
 }
 .social_profiles_heading {
