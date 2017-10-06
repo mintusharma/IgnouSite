@@ -3,8 +3,9 @@
 <!-- Container (Services Section) -->
  
     <div class="col-sm-12 service-container2 ">
-        
-      <div class="col-sm-12">
+        <div class="col-sm-2">
+        </div>
+      <div class="col-sm-8">
         <div class="container-fluid text-center" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
           <h2>Downloads</h2>
           <h4>Latest Available Downloads </h4>
@@ -58,6 +59,7 @@
           </div>
         </div>
       </div>
+        <div class="col-sm-2"></div>
 </div>
         
       <!-- Footer is fetched -->
