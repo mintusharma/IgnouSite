@@ -5,7 +5,7 @@
   <!-- Cards Starting From Here  -->
 <div class="row">
 
-    <div class="col-sm-12 bca">
+    <div class="col-sm-12 tutHeader">
     Tutorials
     </div> 
 <div class="col-md-4 tutCard">
@@ -47,7 +47,7 @@
             <img src="images/java-original-wordmark.svg">
             </div>      
             <div class="card_button">
-                <a href="" target="_blank"><button type="button" class="btn tutBtn">JAVA PROGRAMMING</button></a>
+                <a href="" class="tutAnchorT" target="_blank"><button type="button" class="btn tutBtn">JAVA PROGRAMMING</button></a>
           
             </div>  
           </div>
