@@ -5,75 +5,109 @@
   <!-- Cards Starting From Here  -->
 <div class="row">
 
-    <div class="col-sm-12 bca">
+    <div class="col-sm-12 tutHeader">
     Tutorials
     </div> 
-<div class="col-md-4 col-sm-6 ">
-          <div class="thumbnail">
+<div class="col-md-4 tutCard">
+          <div class="thumbnail ">
               <div class="card_image">
-            <img src="images/image1.svg">
+            <img  src="images/c-original.svg">
             </div>      
             <div class="card_button">
-                <a href="" target="_blank"><button type="button" class="btn  btn-primary btn-block">C PROGRAMMING</button></a>
+                <a href="" target="_blank"><button type="button" class="btn tutBtn">C PROGRAMMING</button></a>
             
             </div>  
           </div>
         </div>
-    <div class="col-md-4 col-sm-6 ">
+    <div class="col-md-4 tutCard">
           <div class="thumbnail">
               <div class="card_image">
-            <img src="images/image1.svg">
+            <img src="images/cplusplus-original.svg">
             </div>      
             <div class="card_button">
-                <a href="" target="_blank"><button type="button" class="btn  btn-primary btn-block">C++ PROGRAMMING</button></a>
+                <a href="" target="_blank"><button type="button" class="btn tutBtn">C++ PROGRAMMING</button></a>
             
             </div>  
           </div>
         </div>
-    <div class="col-md-4 col-sm-6 ">
+    <div class="col-md-4  tutCard">
           <div class="thumbnail">
               <div class="card_image">
-            <img src="images/image1.svg">
+            <img src="images/csharp-original.svg">
             </div>      
             <div class="card_button">
-                <a href="" target="_blank"><button type="button" class="btn  btn-primary btn-block">C# PROGRAMMING</button></a>
+                <a href="" target="_blank"><button type="button" class="btn tutBtn">C# PROGRAMMING</button></a>
           
           </div>
         </div>
     </div>
-    <div class="col-md-4 col-sm-6">
+    <div class="col-md-4 tutCard">
           <div class="thumbnail">
               <div class="card_image">
-            <img src="images/image1.svg">
+            <img src="images/java-original-wordmark.svg">
             </div>      
             <div class="card_button">
-                <a href="" target="_blank"><button type="button" class="btn  btn-primary btn-block">JAVA PROGRAMMING</button></a>
+                <a href="" class="tutAnchorT" target="_blank"><button type="button" class="btn tutBtn">JAVA PROGRAMMING</button></a>
           
             </div>  
           </div>
         </div>
-    <div class="col-md-4 col-sm-6">
+    <div class="col-md-4 tutCard ">
           <div class="thumbnail">
               <div class="card_image">
-            <img src="images/image1.svg">
+            <img src="images/python-original.svg">
             </div>      
-            <div class="card_button">
-                <a href="" target="_blank"><button type="button" class="btn  btn-primary btn-block">PYTHON PROGRAMMING</button></a>
+            <div class="card_button tutCardButton">
+                <a href="" target="_blank"><button type="button" class="btn  tutBtn">PYTHON PROGRAMMING</button></a>
            
             </div>  
           </div>
         </div>
-    <div class="col-md-4 col-sm-6">
+    <div class="col-md-4 tutCard">
           <div class="thumbnail">
               <div class="card_image">
-            <img src="images/image1.svg">
+            <img src="images/php-original.svg">
             </div>      
             <div class="card_button">
-                <a href="" target="_blank"><button type="button" class="btn  btn-primary btn-block">PHP WEB DEVELOPMENT</button></a>
+                <a href="" target="_blank"><button type="button" class="btn tutBtn">PHP WEB DEVELOPMENT</button></a>
           
             </div>  
           </div>
         </div>
+    <div class="col-md-4 tutCard ">
+          <div class="thumbnail">
+              <div class="card_image">
+            <img src="images/android-original-wordmark.svg">
+            </div>      
+            <div class="card_button ">
+                <a href="" target="_blank"><button type="button" class="btn tutBtn tutButton">ANDRIOD DEVELOPMENT</button></a>
+          
+            </div>  
+          </div>
+        </div>
+    <div class="col-md-4  tutCard">
+          <div class="thumbnail">
+              <div class="card_image">
+            <img src="images/linux-original.svg">
+            </div>      
+            <div class="card_button">
+                <a href="" target="_blank"><button type="button" class="btn tutBtn">LINUX</button></a>
+          
+            </div>  
+          </div>
+        </div>
+    <div class="col-md-4 tutCard ">
+          <div class="thumbnail">
+              <div class="card_image">
+            <img src="images/html5-original-wordmark.svg">
+            </div>      
+            <div class="card_button">
+                <a href="" target="_blank"><button type="button" class="btn tutBtn">HTML5</button></a>
+          
+            </div>  
+          </div>
+        </div>
+    
     </div>
     
 
