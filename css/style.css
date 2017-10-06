@@ -365,13 +365,49 @@ textarea{
 }
 
 /*Tutorials Page style start here*/
-
-.tutCard{
-    
+.tutThumbnail{
+    padding: 0;
+    height:200px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
 }
+.tutCard_image{
+    height:80%;
+    width:100%;
+    color: white;
+    padding: 0;
+    border-radius:4px;
+      background-color:lightslategray;
+
+}
+
+.tutCard_image img{
+    height:100%;
+    width:100%;
+}
+
+ .tutCard_button {
+    height:15%;
+    padding:0;
+    margin: 0;
+    background-color:white;
+    color: white;
+  }
+
+.tutCard_button a {
+    background-color: maroon;
+    
+    color: white;
+}
+
+.tutCard_button button:hover{
+    background-color:white;
+    color:navy;
+}
+
 .tutBtn{
    width: 100%;
-    padding: 25px;
+    background-color: rgb(32,67,137);
     }
 .tutHeader{
     width: 100%;
