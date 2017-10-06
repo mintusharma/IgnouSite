@@ -11,13 +11,13 @@
         <a href="#"><img src="images/youtube.svg" alt="Ignousite on youtube"></a>
       </div>
       <div class="footer_social_links">
-        <a href="#">HOME</a>
-        <a href="#">ASSIGNMENTS</a>
-        <a href="#">PROJECTS</a>
-        <a href="#">DOWNLOADS</a>
-        <a href="#">TUTORIALS</a>
-        <a href="#">CONTACT</a>
-        <a href="#">ABOUT</a>
+        <a href="index.php">HOME</a>
+        <a href="assignments.php">ASSIGNMENTS</a>
+        <a href="projects.php">PROJECTS</a>
+        <a href="downloads.php">DOWNLOADS</a>
+        <a href="Tutorials.php">TUTORIALS</a>
+        <a href="contact.php">CONTACT</a>
+        <a href="aboutus.php">ABOUT</a>
       </div>
     </div>
   </div>
