@@ -4,9 +4,8 @@
   <div class="col-sm-12 aboutustitle">
     <h1>Projects </h1>
   </div>
-  <div class="col-sm-12">
-    <div class=" col-sm-8 projectlist">
-
+<div class="row projectcontainer">
+<div class="col-sm-8 projectlist">
       <div class="panel-group" id="accordion">
         <div class="panel panel-default">
           <div class="panel-heading ">
@@ -111,9 +110,9 @@
         </div>
       </div>
     </div>
-
-
-    <div class="col-sm-4 sideform2">
+    
+    
+    <div class="col-sm-3 sideform2">
       <form class="form-horizontal" target="_self" >
         <h2 style="text-align: center">Quick Access</h2><br>
         <div class="form-group">
@@ -147,12 +146,13 @@
         </div>
       </form>
     </div>
-  </div>
+</div>
+
 <div class="col-sm-12  imp_note">
 <div class="subnote">
     All the Projects are availabe at lowest price..  >>
     </div>
 </div>
 
-  <!-- Footer is fetched -->
+<!-- Footer is fetched -->
   <?php include('footer.php'); ?>

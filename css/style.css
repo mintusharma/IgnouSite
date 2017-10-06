@@ -191,12 +191,48 @@ background-color: #000088;
 }
 
 /*project css start here */
-
-.project-list{
-  margin-top: 10px;
-  height:540px;
+.projectcontainer{
+    margin-left: 0;
+    margin-right: 0;
+    background-color: whitesmoke;
+    margin-bottom:2px; 
 }
+/*  Project List Page style start here */
+.projectlist{
+    border-radius:4px;
+  height: auto;
+  padding-left:5%; 
+  font-size:1.2em;
+}
+.projectlist a{
+    text-decoration: none;
+    font-size:1.2em;
+}
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #000088;
+    border-color: #ddd;
+}
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: 1px solid #ddd;
+    margin-left: 40px;
+}
+
+/* side form css style start here */
+.sideform2{
+  width:30%;
+  color: black;
+    border-radius:4px; 
+    background-color:whitesmoke;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+/* side form css style end here  */
+
 /*project  css end here */
+
+
+
 
 /*project list buttons css start here */
 .btn2:after {
@@ -209,7 +245,10 @@ background-color: #000088;
 .btn2.collapsed:after {
   content: "\e080";
 }
+
 /*project list buttons css end here */
+
+
 
 
 .mark{
@@ -336,33 +375,6 @@ textarea{
 
 /* end of contact form style */
 
-/*  Project List Page style start here */
-.projectlist{
-  height: auto;
-  min-width:70%;
-  font-size:1.2em;
-}
-.projectlist a{
-    text-decoration: none;
-    font-size:1.2em;
-}
-.panel-default>.panel-heading {
-    color: #fff;
-    background-color: #000088;
-    border-color: #ddd;
-}
-.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
-    border-top: 1px solid #ddd;
-    margin-left: 40px;
-}
-
-
-.sideform2{
-  width:30%;
-  color: black;
-  text-align: center;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
 
 /*Tutorials Page style start here*/
 
@@ -584,24 +596,3 @@ footer .row{
 
 /* FOOTER STYLES ENDS HERE */
 
-.program_list{
-    padding-right:10px;
-
-}
-.result h3{
-    margin: 0;
-    text-align: center;
-    color:white;
-    background-color:#000088;
-    font-size: 2em;
-}
-input[type="submit"]:hover {
-	background:#000088;
-    color:#fff;
-}
-
-.result label{
-    padding-top:20px;
-    font-size:1.2em;
-    color: #000088;
-}

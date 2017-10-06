@@ -4,9 +4,9 @@ body{clear: both; margin: 0 auto;}
    background-color:#2d4788;
     height: 250px;
   }
-  .assignment h1{
+  .assignment p{
     padding-top:10%;
-    font-size:4em;
+    font-size:3em;
     margin: 0 auto;
     color: white;
   }
@@ -117,8 +117,48 @@ body{clear: both; margin: 0 auto;}
   }
 .for_others{
     margin-top:10px;
+    margin-left: 0px;
+    margin-right: 0px;
     padding-left:5%;
     padding-right:5%;
     }
 
+/* result css strat here */
+.program_list{
+    padding-right:10px;
 
+}
+.result h3{
+    margin: 0;
+    text-align: center;
+    color:white;
+    background-color:#000088;
+    font-size: 2em;
+}
+input[type="submit"]:hover {
+	background:#000088;
+    color:#fff;
+}
+
+.result label{
+    padding-top:20px;
+    font-size:1.2em;
+    color: #000088;
+}
+
+/* result css end here */
+
+/* imp_note cs start here */
+.imp_note{
+    background-color:whitesmoke;
+    padding-left:5%;
+    padding-right:3%; 
+}
+.subnote{
+    background-color: #000088;
+    margin: 0;
+    margin-bottom:1px; 
+    color: #fff;
+    font-size:2em;
+    padding:10px; 
+}
