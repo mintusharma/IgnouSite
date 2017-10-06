@@ -149,11 +149,7 @@
     </div>
 </div>
 
-<div class="col-sm-12  imp_note">
-<div class="subnote">
-    All the Projects are availabe at lowest price..  >>
-    </div>
-</div>
+
 
 <!-- Footer is fetched -->
   <?php include('footer.php'); ?>

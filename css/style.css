@@ -133,19 +133,20 @@
   .sideform2{
     min-width: 100%;
   }
-   .sideinfo{
+    .sideinfo{
         margin-top:3%; 
     }
-    
     .tabcontainer2{
         height:600px; 
         background-color:white;
     }
     #home, #menu1,#menu2,#menu3{
+  
   padding:40px;
   height:450px;
 }
-    
+   
+}
 }
 
 /* media query end here */
@@ -153,7 +154,6 @@
 /* grade card and result tab css start here */
 .tabcontainer2{
   width:100%;
- height:260px;
     margin-top:5px;
     margin-bottom:5px;
   background-color:navy;
@@ -169,7 +169,9 @@
     background-color: #fff;
     color:#000088; 
 }
-
+.tab-content{
+    height:280px; 
+}
 
 #home, #menu1,#menu2,#menu3{
   background-color: white;
@@ -218,13 +220,12 @@ background-color: #000088;
 }
 /* side form css style start here */
 
-.quickacces{
+.sideform{
  background-color:whitesmoke; 
   margin-left:0px;
   margin-right:0px;
   border-radius:4px;
   padding: 0;
-    height: auto;
     border:2px solid #000088; 
   margin-top:5px; 
   display:inline-block;

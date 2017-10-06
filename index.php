@@ -71,7 +71,7 @@
         <li><a data-toggle="tab" href="#menu3">RESULT</a></li>
       </ul>
 
-      <div class="tab-content" style="height:280px;">
+      <div class="tab-content">
         <div id="home" class="tab-pane fade">
           <h4><span class="glyphicon glyphicon-ok-sign"></span> Flexible Admission Rules</h4>
           <h4><span class="glyphicon glyphicon-ok-sign"></span> Individualised Study Flexibility in Terms of Place, Pace & Duration</h4>
@@ -189,9 +189,10 @@
         </div>
       </div>
 
-      <div class="col-sm-4 quickacces">
+      <div class="col-sm-4 sideform">
           <div class="col-sm-12 qac">Quick Access</div>
           
+        <br>
       </div>
 </div>
 
