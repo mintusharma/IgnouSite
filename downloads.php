@@ -1,8 +1,7 @@
 <!-- # Header is fetched -->
 <?php include('header.php'); ?>
 <!-- Container (Services Section) -->
-<div class="dwnldSec1">
-</div>
+ 
     <div class="col-sm-12 service-container2 ">
         
       <div class="col-sm-12">
