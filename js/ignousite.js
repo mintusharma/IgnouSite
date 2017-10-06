@@ -21,7 +21,7 @@ var x = setInterval(function() {  //This function updates the date every second
   }
 }, 1000); // value for I second
 
-<?php
+
 // Defining function
 function fnsubmit(frm){
 if document.forms(0).eno.value="" then
@@ -38,4 +38,4 @@ end if
 
 end function
 }
-?>
+
