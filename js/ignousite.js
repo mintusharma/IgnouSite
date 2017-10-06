@@ -22,20 +22,3 @@ var x = setInterval(function() {  //This function updates the date every second
 }, 1000); // value for I second
 
 
-// Defining function
-function fnsubmit(frm){
-if document.forms(0).eno.value="" then
-msgbox "Enrolment should not be blank"
-document.forms(0).eno.focus
-fnsubmit=false
-elseif len(document.forms(0).eno.value)<>9 then
-msgbox "Enrolment should be of 9 Character"
-document.forms(0).eno.focus
-fnsubmit=false
-else
-fnsubmit=true
-end if
-
-end function
-}
-
