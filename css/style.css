@@ -10,7 +10,7 @@
 }
 .btn-primary:hover{
   background-color: #000080;
-  transition: 900ms ease;
+  transition: 500ms ease-out;
 }
 
 /* Global Css for elements ends*/
