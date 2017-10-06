@@ -84,10 +84,10 @@
 
         <div id="menu1" class="tab-pane fade in active">
           <h4>Check Your Grade Card</h4>
-          <div class="col-sm-5">
+          <div class="col-md-12 gradecard_class">
             <form  action="https://webservices.ignou.ac.in/GradecardM/Result.asp" target="_blank" method="post">
               <span style="color: black; font-size:15px; ">
-                <b>For BCA/MCA/MP/MPB</b></span>
+                <b>For BCA/MCA/MP/MPB/BDP And For Others</b></span>
                 <div class="form-group">
                   <div class="col-sm-12">
                     <select name="Program" class="form-control">
@@ -96,24 +96,30 @@
                       <option value="MCA">MCA</option>
                       <option value="MP">MP</option>
                       <option value="MPB">MPB</option>
+                      <option value="ASSO">ASSO</option>
+                      <option value="BA">BA</option>
+                      <option value="BCOM">BCOM</option>
+                      <option value="BDP">BDP</option>
+                      <option value="BSC">BSC</option>
+                      <option value="BSC">---------------------------BELOW FOR OTHER COURSE-------------------------</option>
                     </select>
                   </div>
                 </div>
                 <div class="form-group">
                   <div class="col-sm-12" style="margin-top:10px; ">
-                    <input name="hidden_submit" type="hidden" value="OK">
                     <input class="form-control" placeholder="Enter Enrollment" name="eno" maxlength="9" size="9" required="required" type="number">
                   </div>
                 </div>
                 <div class="form-group">
                   <div class="col-sm-5" style="margin-top:10px;">
-                    <input type="submit" class="btn btn-default" value="Submit">
+                    <input type="submit" class="btn btn-default" value="Submit" onclick="checkProgramValue()">
+                    <input name="hidden_submit" type="hidden" value="OK">
                   </div>
                 </div>
               </form>
             </div>
-            
-            <div class="col-sm-5" style="border-left: 1px solid;">
+
+            <!-- <div class="col-sm-5" style="border-left: 1px solid;">
               <form  action="https://gradecard.ignou.ac.in/gradecardB/Result.asp" target="_blank">
                 <span style="color: black; font-size:15px; ">
                   <b>Selected programs of BDP</b></span>
@@ -141,11 +147,11 @@
                     </div>
                   </div>
                 </form>
-              </div>
-            
-            <div class="col-sm-5 other_program_links">
+              </div> -->
+
+            <!-- <div class="col-sm-5 other_program_links">
             <a href="https://webservices.ignou.ac.in/GradecardR/Result.asp" target="_blank"><span style="font-size:17px; color:#000088;">For Other Program Click Here</span></a>
-            </div>
+            </div> -->
             </div>
 
             <div id="menu2" class="tab-pane fade">
@@ -156,22 +162,22 @@
                 <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span>PG Certificate</a>
                 <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span> Doctoral Degree</a>
             </div>
-                
+
                 <div class="col-sm-5">
             <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span>PG Diploma</a>
                     <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span>Advance Diploma</a>
                      <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span>Advance Certificate</a>
                     <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span>Non-Credit Programmes</a>
-                    <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span> M.Phil Programme</a>  
+                    <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span> M.Phil Programme</a>
             </div>
             </div>
-          
+
             <div id="menu3" class="tab-pane fade">
               <div class="col-sm-12 result">
                 <h3>Check Your Result here..</h3>
                   <label class="col-sm-5 control-label" for="email">Enter 9 Digit( Numeric) Enrolment Number </label>
                   <div class="col-sm-5 form-group">
-                    <form name="Enofr" target="_blank" method="post" action="http://ignouhall.ignou.ac.in/TE0617alt/TermEndJune17alt.asp" onsubmit="return fnsubmit(this)"> 
+                    <form name="Enofr" target="_blank" method="post" action="http://ignouhall.ignou.ac.in/TE0617alt/TermEndJune17alt.asp" onsubmit="return fnsubmit(this)">
                       <div class="col-sm-12" style="margin-top:10px; ">
                       <input name="myhide" type="hidden" value="OK">
                       <input class="form-control" placeholder="Enter Enrollment" name="eno" maxlength="9" size="9" required="required" type="number">
@@ -191,7 +197,7 @@
 
       <div class="col-sm-4 sideform">
           <div class="col-sm-12 qac">Quick Access</div>
-          
+
         <br>
       </div>
 </div>
@@ -279,7 +285,7 @@
           </div>
         </div>
       </div>
-          
+
           <div class="col-sm-4 sideinfo">
         <div class="col-sm-12 qac">Quick Contact</div>
         <div class="project-list">
@@ -316,10 +322,10 @@
         </form>
         </div>
       </div>
-          
-          
+
+
     </div>
-    
+
     </div> <!--  End of Service Cpntainer -->
 
 

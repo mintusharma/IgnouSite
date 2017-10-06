@@ -20,3 +20,21 @@ var x = setInterval(function() {  //This function updates the date every second
     document.getElementById("doomsDay").innerHTML = "DOOMSDAY!";
   }
 }, 1000); // value for I second
+
+
+// Checking for Gradecard's actions
+var action1 = "https://webservices.ignou.ac.in/GradecardM/Result.asp";
+var action2 = "https://gradecard.ignou.ac.in/gradecardB/Result.asp";
+var action3 = "https://webservices.ignou.ac.in/GradecardR/Result.asp";
+
+function checkProgramValue() {
+ var firstFormTag = document.forms[0];
+ var program = firstFormTag.elements[0].value;
+ if (program == "BCA" || program == "MCA" || program == "MP" || program == "MPB") {
+   document.getElementsByTagName("form")[0].setAttribute("action", action1);
+ }else if (program == "ASSO" || program == "BA" || program == "BCOM" || program == "BDP" || program == "BSC") {
+   document.getElementsByTagName("form")[0].setAttribute("action", action2);
+ }else {
+   document.getElementsByTagName("form")[0].setAttribute("action", action3);
+ }
+}
