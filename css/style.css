@@ -91,58 +91,18 @@
   opacity: .4;
   width:100px;
 }
-
-/* grade card and result tab css start here */
 .tabcontainer2{
   width:100%;
   height:260px;
     margin-top:5px;
     margin-bottom:5px;
-  background-color:navy;
+  background-color:whitesmoke;
   height:auto;
-    border:3px solid navy; 
     border-radius:4px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
-.tabcontainer2 a{
-    color: #fff;
-}
-.nav>li>a:hover{
-    background-color: #fff;
-    color:#000088; 
-}
 
 
-#home, #menu1,#menu2,#menu3{
-  background-color: white;
-  border: 5px solid whitesmoke;
-  padding:20px;
-  height:100%;
-}
-#menu1{
-  padding:52px;
-}
-#menu1 h4{
-  font-size:2em;
-  text-align: center;
-  color: white;
-background-color: #000088;
-  margin-top:-40px;
-}
-#menu2 a{
-    padding: 5px;
-    color:#000088;
-    font-weight: 500;
-    display: block;
-    text-decoration: none;
-    font-size:1.5em;
-    opacity:0.5;
-}
-#menu2 a:hover{
-    color:navy;
-     opacity:1;
-}
-/* grade card and result tab css end here */
 .logo-small {
   color:navy;
   font-size: 60px;
@@ -177,41 +137,68 @@ background-color: #000088;
         margin-top:3%; 
     }
     .tabcontainer2{
-        height:700px;
+        height:600px; 
         background-color:white;
     }
+    #home, #menu1,#menu2,#menu3{
+  
+  padding:40px;
+  height:450px;
+}
     
 }
 
 /* media query end here */
 
-/* service-container css start here */
+/* main grade card and menu container css start here */
 .service-container{
   margin-top:5px;
     margin-left: 0;
     margin-right: 0;
     margin-bottom:5px;
     padding-left:5%;
-    padding-right:5%; 
+    padding-right:5%;
     border-radius:4px; 
     background-color:whitesmoke;
 }
-.services{
-    background-color:navy;
-    color: white;
+#home, #menu1,#menu2,#menu3{
+  background-color: white;
+  border: 5px solid whitesmoke;
+  padding:20px;
+  height:100%;
 }
-
-
- /* service-container css end here */
+#menu1{
+  padding:52px;
+}
+#menu1 h4{
+  font-size:2em;
+  text-align: center;
+  color: white;
+background-color: #000088;
+  margin-top:-40px;
+}
+#menu2 a{
+    padding: 5px;
+    color:#000088;
+    font-weight: 500;
+    display: block;
+    text-decoration: none;
+    font-size:1.5em;
+    opacity:0.5;
+}
+#menu2 a:hover{
+    color:navy;
+     opacity:1;
+}
+ /* service and menu css end here */
 
 /* side quick access form css start here */
 .sideinfo{
   background-color: white;
   color: black;
     height:560px;
-    margin-bottom:10px; 
+    margin-bottom:5px; 
     overflow: hidden;
-    border:4px solid #000088; 
     border-radius:4px;
     padding: 0;
   text-align: center;
@@ -220,37 +207,31 @@ background-color: #000088;
 /* side form css style start here */
 
 .sideform{
-  background-color:whitesmoke; 
-  margin-left:0px;
-  margin-right:0px;
-  border-radius:4px;
-  padding: 0;
-    border:3px solid #000088; 
-  margin-top:5px; 
+  background-color: whitesmoke; 
+  margin-left: 0;
+  margin-right: 0;
+    border-radius:4px;
+    margin-top:5px;
+    margin-bottom:5px; 
   display:inline-block;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 
 }
-
 .sideform2{
   width:29%;
   padding: 0;
   border:10px solid navy; 
   color: black;
   border-radius:4px; 
-  background-color:whitesmoke;
+background-color:whitesmoke;
   text-align: center;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
-.form-horizontal .form-group {
-    margin-right:0px;
-    margin-left:0px;
 }
 
 .qac{
     clear: both;
     color:#fff;
-    text-align: center;
+    padding: 0;
     margin-bottom:10px; 
     font-size:2.1em; 
     background-color:#000088; 
@@ -354,9 +335,8 @@ footer a:hover {
   text-decoration: none;
 }*/
 
-textarea.form-control {
-    height:65px; 
-    resize: none;
+textarea{
+  resize: vertical;
 }
 
 

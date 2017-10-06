@@ -190,8 +190,8 @@
       </div>
 
       <div class="col-sm-4 sideform">
-          <div class="col-sm-12 qac">Quick Access</div>
-          <form class="form-horizontal" target="_self" >
+        <form class="form-horizontal" target="_self" >
+          <h2 style="text-align: center">Quick Contact</h2><br>
           <div class="form-group">
             <label class="control-label col-sm-3" for="email">Name : </label>
             <div class="col-sm-9">
@@ -207,8 +207,8 @@
           <div class="form-group">
             <label class="control-label col-sm-3" for="pwd">Query : </label>
             <div class="col-sm-9">
-              <textarea class="form-control" placeholder="Query" maxlength="150" ></textarea>
-            </div><br>
+              <textarea class="form-control" placeholder="Query" ></textarea>
+            </div>
           </div>
           <div class="form-group">
             <label class="control-label col-sm-3" for="pwd">Mobile : </label>
@@ -222,7 +222,6 @@
             </div>
           </div>
         </form>
-        <br>
       </div>
 </div>
 
@@ -256,9 +255,9 @@
 <div class="row" style="margin-left:0;margin-right:0;">
       <div class="col-sm-12 service-container">
     <div class="col-sm-8">
-        <div class="container-fluid text-center" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background-color:white;border:3px solid #000088;">
-          <div class="services"><h2>SERVICES</h2>
-          <h4>What we offer</h4></div>
+        <div class="container-fluid text-center" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background-color:white;">
+          <h2>SERVICES</h2>
+          <h4>What we offer</h4>
           <br>
           <div class="row">
             <a href="#">
@@ -311,7 +310,7 @@
       </div>
           
           <div class="col-sm-4 sideinfo">
-        <div class="col-sm-12 qac">Quick Access</div>
+        <h2>What We Created</h2>
         <div class="project-list">
           <marquee class="mark" direction="down" onmouseover="this.stop()" onmouseout="this.start()">
             <div class="row text-center2">
