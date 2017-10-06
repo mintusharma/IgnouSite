@@ -71,7 +71,7 @@
         <li><a data-toggle="tab" href="#home">WHY IGNOU</a></li>
         <li class="active"><a data-toggle="tab" href="#menu1">GRADE CARD</a></li>
         <li><a data-toggle="tab" href="#menu2">PROGRAMS</a></li>
-        <li><a data-toggle="tab" href="#menu3">PROJECTS</a></li>
+        <li><a data-toggle="tab" href="#menu3">RESULT</a></li>
       </ul>
 
       <div class="tab-content" style="height: 320px;">
@@ -88,7 +88,7 @@
         <div id="menu1" class="tab-pane fade in active">
           <h4>Check Your Grade Card</h4>
           <div class="col-sm-5">
-            <form  action="https://webservices.ignou.ac.in/GradecardM/Result.asp" target="#myModel" method="post">
+            <form  action="https://webservices.ignou.ac.in/GradecardM/Result.asp" target="_blank" method="post">
               <span style="color: black; font-size:15px; ">
                 <b>For BCA/MCA/MP/MPB</b></span>
                 <div class="form-group">
@@ -105,7 +105,7 @@
                 <div class="form-group">
                   <div class="col-sm-12" style="margin-top:10px; ">
                     <input name="hidden_submit" type="hidden" value="OK">
-                    <input class="form-control" placeholder="Enter Enrollment" name="eno" required="required" type="number">
+                    <input class="form-control" placeholder="Enter Enrollment" name="eno" maxlength="9" size="9" required="required" type="number">
                   </div>
                 </div>
                 <div class="form-group">
@@ -114,8 +114,8 @@
                   </div>
                 </div>
               </form>
-
             </div>
+            
             <div class="col-sm-5" style="border-left: 1px solid;">
               <form  action="https://gradecard.ignou.ac.in/gradecardB/Result.asp" target="_blank">
                 <span style="color: black; font-size:15px; ">
@@ -129,14 +129,13 @@
                          <option value="BCOM ">BCOM </option>
                          <option value="BDP">BDP </option>
                          <option value="BSC">BSC </option>
-
                         </select>
                     </div>
                   </div>
                   <div class="form-group">
                     <div class="col-sm-12" style="margin-top:10px; ">
                       <input name="hidden_submit" type="hidden" value="OK">
-                      <input class="form-control" placeholder="Enter Enrollment" name="eno" required="required" type="number">
+                      <input class="form-control" placeholder="Enter Enrollment" name="eno" maxlength="9" size="9" required="required" type="number">
                     </div>
                   </div>
                   <div class="form-group">
@@ -146,28 +145,46 @@
                   </div>
                 </form>
               </div>
+            
             <div class="col-sm-5 other_program_links">
             <a href="https://webservices.ignou.ac.in/GradecardR/Result.asp" target="_blank">For Other Program <span style="font-size:20px;">Click Here</span></a>
             </div>
             </div>
 
             <div id="menu2" class="tab-pane fade">
-              <h4><span class="glyphicon glyphicon-ok-sign"></span> BCA / MCA</h4>
-              <h4><span class="glyphicon glyphicon-ok-sign"></span> B.COM / M.COM</h4>
-              <h4><span class="glyphicon glyphicon-ok-sign"></span> BA / MA </h4>
-              <h4><span class="glyphicon glyphicon-ok-sign"></span> Bsc / Msc</h4>
-              <h4><span class="glyphicon glyphicon-ok-sign"></span> B.Ed </h4>
-              <h4><span class="glyphicon glyphicon-ok-sign"></span> Diploma Courses</h4>
-              <h4><span class="glyphicon glyphicon-ok-sign"></span> <a href="#" target="_blank">For More Courses Click Here</a></h4>
+            <div class="col-sm-5">
+             <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span>Bachelor's Degree</a>
+                <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span>Master's Degree</a>
+                <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span>Certificate Programmes</a>
+                <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span>PG and Advance Certificate</a>
+                <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span> Doctoral Degree</a>
             </div>
+                
+                <div class="col-sm-5">
+            <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span>PG and Advance Diploma</a>
+                    <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span>Non-Credit Programmes</a>
+                    <a href="https://onlineadmission.ignou.ac.in/admission/#end" target="_blank"><span class="glyphicon glyphicon glyphicon-education program_list"></span> M.Phil Programme</a>  
+            </div>
+            </div>
+          
             <div id="menu3" class="tab-pane fade">
-              <h4><span class="glyphicon glyphicon-ok-sign"></span> BCA / MCA</h4>
-              <h4><span class="glyphicon glyphicon-ok-sign"></span> B.COM / M.COM</h4>
-              <h4><span class="glyphicon glyphicon-ok-sign"></span> BA / MA </h4>
-              <h4><span class="glyphicon glyphicon-ok-sign"></span> Bsc / Msc</h4>
-              <h4><span class="glyphicon glyphicon-ok-sign"></span> B.Ed </h4>
-              <h4><span class="glyphicon glyphicon-ok-sign"></span> Diploma Courses</h4>
-              <h4><span class="glyphicon glyphicon-ok-sign"></span> Motivate to SelfStudy</h4>
+              <div class="col-sm-12 result">
+                <h3>Check Your Result here..</h3>
+                  <label class="col-sm-5 control-label" for="email">Enter 9 Digit( Numeric) Enrolment Number </label>
+                  <div class="col-sm-5 form-group">
+                    <form name="Enofr" target="_blank" method="post" action="http://ignouhall.ignou.ac.in/TE0617alt/TermEndJune17alt.asp" onsubmit="return fnsubmit(this)"> 
+                      <div class="col-sm-12" style="margin-top:10px; ">
+                      <input name="myhide" type="hidden" value="OK">
+                      <input class="form-control" placeholder="Enter Enrollment" name="eno" maxlength="9" size="9" required="required" type="number">
+                    </div>
+                      <div class="form-group">
+                    <div class="col-sm-5" style="margin-top:10px;">
+                      <input type="submit" class="btn btn-default" value="Submit">
+                    </div>
+                  </div>
+                </form>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
