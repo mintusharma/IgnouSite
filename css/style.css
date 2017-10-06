@@ -185,9 +185,9 @@ background-color: #000088;
 .other_program_links{
     padding-left:20px;
     margin-top:10px;
-    margin-left:10px; 
-    padding-top:10px; 
-    font-size:30px; 
+    margin-left:10px;
+    padding-top:10px;
+    font-size:30px;
 }
 
 /*project css start here */
@@ -341,11 +341,11 @@ textarea{
 .projectlist{
   height: auto;
   min-width:70%;
-  font-size:1.2em; 
+  font-size:1.2em;
 }
 .projectlist a{
     text-decoration: none;
-    font-size:1.2em; 
+    font-size:1.2em;
 }
 .panel-default>.panel-heading {
     color: #fff;
@@ -366,62 +366,25 @@ textarea{
 }
 
 /*Tutorials Page style start here*/
-.tutorials{
-  height:200px;
-  background-image: url(../images/Tutorial.png);
-  background-repeat: no-repeat;
+<<<<<<< HEAD
+.tutCard{
+    width:400px;
+    padding: 15px;
+    margin-left: 20px;
+    height: 250px;
 }
-.imp_note{
-    background-color:whitesmoke;
-    padding: 10px;
-    font-size:2em;
+.tutBtn{
+   width: 100%;
+    padding: 25px;
+    }
+.tutHeader{
+    width: 100%;
+    height: 65px;
+    text-align: center;
+    font-size: 40px;
+    background-color: maroon;
     color: white;
-}
-.subnote{
-    background-color:#000088;
-    padding: 20px;
-    margin-left:1.5%;
-    margin-right:0.2%; 
-}
-
-/*
-.tutorials h1{
-padding-top:7%;
-font-size:5em;
-color: red;
-font:comic sans ms;
-}
-*/
-.card_views2{
-  height:auto;
-}
-.sub_cards2{
-  margin-left:6%;
-  margin-bottom:10px;
-  margin-top:10px;
-  height:300px;
-  padding: 0;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-
-}
-.card_image2{
-  height:74.4%;
-  margin-bottom:2%;
-}
-.card_image2 img{
-  height: 100%;
-  width: 100%;
-}
-.card_button2{
-  height:20%;
-  margin:0;
-  border:none;
-  padding: 0;
-}
-.card_button2 button:hover{
-  background-color: #311B92;
-  color: white;
-  border:none;
+    margin: 15px;
 }
 
 /* ABOUT US PAGE CSS STARTS HERE*/
@@ -467,6 +430,7 @@ font:comic sans ms;
 }
 .social_profiles img:hover{
   opacity: 0.7;
+  transform: translate3d(0,-5px,0);
   transition: fill 300ms 0s ease, stroke 300ms 0s ease, transform 300ms 0s ease, opacity 300ms 0s ease;
 }
 .social_profiles_heading {

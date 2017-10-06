@@ -289,7 +289,7 @@
                 <p>Lorem ipsum dolor sit amet..</p>
               </div>
             </a>
-            <a href="Tutorials.php">
+            <a href="tutorials.php">
               <div class="col-sm-4">
                 <span class="glyphicon glyphicon-education logo-small"></span>
                 <h4>QUICK TUTORIALS</h4>
