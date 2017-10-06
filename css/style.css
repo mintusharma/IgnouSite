@@ -10,7 +10,7 @@
 }
 .btn-primary:hover{
   background-color: #000080;
-  transition: 900ms ease;
+  transition: 500ms ease-out;
 }
 
 /* Global Css for elements ends*/
@@ -171,9 +171,9 @@
 .other_program_links{
     padding-left:20px;
     margin-top:10px;
-    margin-left:10px; 
-    padding-top:10px; 
-    font-size:30px; 
+    margin-left:10px;
+    padding-top:10px;
+    font-size:30px;
 }
 
 /*project css start here */
@@ -327,11 +327,11 @@ textarea{
 .projectlist{
   height: auto;
   min-width:70%;
-  font-size:1.2em; 
+  font-size:1.2em;
 }
 .projectlist a{
     text-decoration: none;
-    font-size:1.2em; 
+    font-size:1.2em;
 }
 .panel-default>.panel-heading {
     color: #fff;
@@ -352,6 +352,7 @@ textarea{
 }
 
 /*Tutorials Page style start here*/
+<<<<<<< HEAD
 .tutCard{
     width:400px;
     padding: 15px;
@@ -364,6 +365,53 @@ textarea{
     }
 .tutAnchorT{
     font-size: 25px;
+=======
+.tutorials{
+  height:200px;
+  background-image: url(../images/Tutorial.png);
+  background-repeat: no-repeat;
+}
+.imp_note{
+    background-color:whitesmoke;
+    padding: 10px;
+    font-size:2em;
+    color: white;
+}
+.subnote{
+    background-color:#000088;
+    padding: 20px;
+    margin-left:1.5%;
+    margin-right:0.2%;
+}
+
+/*
+.tutorials h1{
+padding-top:7%;
+font-size:5em;
+color: red;
+font:comic sans ms;
+}
+*/
+.card_views2{
+  height:auto;
+}
+.sub_cards2{
+  margin-left:6%;
+  margin-bottom:10px;
+  margin-top:10px;
+  height:300px;
+  padding: 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+
+}
+.card_image2{
+  height:74.4%;
+  margin-bottom:2%;
+}
+.card_image2 img{
+  height: 100%;
+  width: 100%;
+>>>>>>> db50256d15c4d533553fc8d47691a436cfb92ce5
 }
 /* ABOUT US PAGE CSS STARTS HERE*/
 
@@ -408,6 +456,7 @@ textarea{
 }
 .social_profiles img:hover{
   opacity: 0.7;
+  transform: translate3d(0,-5px,0);
   transition: fill 300ms 0s ease, stroke 300ms 0s ease, transform 300ms 0s ease, opacity 300ms 0s ease;
 }
 .social_profiles_heading {

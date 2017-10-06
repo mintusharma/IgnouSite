@@ -40,7 +40,7 @@ body{clear: both; margin: 0 auto;}
     color: white;
     padding: 0;
     border-radius:4px;
-      background-color:gray;
+      background-color:lightslategray;
 
 }
 
@@ -91,7 +91,7 @@ body{clear: both; margin: 0 auto;}
 }
 
 .thumbnail2 button a:hover{
-    color:lime;
+    color:aqua;
 }
 
 /* button style end here */
@@ -108,7 +108,7 @@ body{clear: both; margin: 0 auto;}
 
   .bca,.mca{
     padding:10px;
-    background-color:brown;
+    background-color:lightslategray;
     text-align: center;
     font-size:2em;
     margin-bottom:5px;
