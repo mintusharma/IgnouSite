@@ -24,7 +24,7 @@
 
   <div class="row">
     <div class="col-md-12 footer_bottom">
-      <p>Copyright (c) 2017 <a href="/index.php">IGNOUSITE.COM</a> All Rights Reserved.</p>
+      <p>Copyright (c) 2017 <a href="/index.php">IGNOUSITE.COM</a> All Rights Reserved.<span class="footer_bottom_version"> v_0.2 (Beta) </span></p>
     </div>
   </div>
 </footer>

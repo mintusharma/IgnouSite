@@ -32,6 +32,35 @@ div.pyp_col2 p{
 
 /* Previous Year Paper style ends */
 
+/* Changelog Css starts here*/
+.changelog_content>.list-group>.list-group-item>.list-group-item-heading{
+  font-weight: 800;
+}
+.update_strips{
+  display: inline-block;
+  padding: 3px 16px;
+  margin-right: 20px;
+  border-radius: 3px;
+  width: 150px;
+  text-align: center;
+  color: #fff;
+}
+.list-group-item>.badge{
+  border-radius: 3px;
+  padding: 4px 8px;
+  margin-left: 5px;
+}
+.list-group-item>.badge_color{
+  border-radius: 3px;
+  padding: 4px 30px;
+  color: #000080;
+  background-color: #000080;
+  /*width: 20px;*/
+}
+
+/* Changelog Css endss here*/
+
+
 .gradecard_class{
   /*padding-left: 90px;
   padding-right: 90px;*/

@@ -38,3 +38,9 @@ function checkProgramValue() {
    document.getElementsByTagName("form")[0].setAttribute("action", action3);
  }
 }
+
+
+// ToolTip code completion, Fixing the tooltip position in the code
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
