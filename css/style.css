@@ -136,17 +136,7 @@
     .sideinfo{
         margin-top:3%; 
     }
-    .tabcontainer2{
-        height:600px; 
-        background-color:white;
-    }
-    #home, #menu1,#menu2,#menu3{
-  
-  padding:40px;
-  height:450px;
-}
-   
-}
+
 }
 
 /* media query end here */
@@ -218,6 +208,7 @@ background-color: #000088;
   text-align: center;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
+
 /* side form css style start here */
 
 .sideform{
