@@ -237,7 +237,7 @@
           <h4>What we offer</h4></div>
           <br>
           <div class="row">
-            <a href="#">
+            <a href="solvedassignments.php">
               <div class="col-sm-4">
                 <span class="glyphicon glyphicon-list-alt logo-small"></span>
                 <h4>SOLVED ASSIGNMENTS</h4>

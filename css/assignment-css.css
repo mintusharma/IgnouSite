@@ -16,9 +16,39 @@ body{clear: both; margin: 0 auto;}
       padding-left:5%;
       padding-right:5%;
   }
+
+.bg-ignou_6_sem {
+    width: 150px; height: 150px;
+    background: url('../images/semester.png') -5px -5px;
+}
+
+.bg-ignou_5th_sem {
+   width: 150px; height: 150px;
+    background: url('../images/semester.png') -265px -5px;
+}
+.bg-ignou_4th_sem {
+    width: 150px; height: 150px;
+    background: url('../images/semester.png') -5px -265px;
+}
+.bg-ignou_3rd_sem {
+  width: 150px; height: 150px;
+    background: url('../images/semester.png') -265px -265px;
+}
+.bg-ignou_2nd_sem {
+    width: 150px; height: 150px;
+    background-color: aqua;
+}
+.bg-ignou_1st_sem {
+    margin: 0 auto;
+   width: 167px; height: 167px;
+    background-color: aqua;
+}
+
+
+
 .thumbnail{
     padding: 0;
-    height:220px;
+    height:260px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     border-radius: 4px;
 }
@@ -40,14 +70,14 @@ body{clear: both; margin: 0 auto;}
     color: white;
     padding: 0;
     border-radius:4px;
-      background-color:lightslategray;
+    background-color:red;
 
 }
 
-.card_image img{
-    height:100%;
-    width:100%;
-}
+
+.sprite.ignou-1st-sem { background-position: -1255px 0; } 
+
+
 
 
 /* Mintu mene thoda sa tweak kiya hai or tu dekh le and css ki to kya kahne teri _ Wah! wah!   */
@@ -164,3 +194,28 @@ input[type="submit"]:hover {
     padding:10px; 
 }
 */
+
+/* solved assignment css start here */
+.bca_solved_assignment{
+    border-radius:4px;
+  height: auto;
+    background-color: aqua;
+  padding-left:5%;
+  font-size:1.2em;
+}
+.bca_solved_assignment a{
+    text-decoration: none;
+    font-size:1.2em;
+}
+.mca_solved_assignment{
+    border-radius:4px;
+  height: auto;
+  padding-left:5%;
+  font-size:1.2em;
+    background-color:red;
+}
+.mca_solved_assignment a{
+    text-decoration: none;
+    font-size:1.2em;
+}
+
