@@ -1,0 +1,27 @@
+
+.blg_leftSide{
+    background-color: crimson;
+    height: auto;
+    text-align:justify;
+}
+.blg_rightSide{
+   background-color:azure;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+.blg_rightSide h1{
+    color:crimson;
+}
+
+.blg_Jumbo h1,p{
+    color: whitesmoke;
+   
+}
+.blg_Jumbo{
+        
+background-color: deepskyblue;
+}
+.blg_BreadCrump{
+    font-size: 20px;
+}
