@@ -199,7 +199,6 @@ input[type="submit"]:hover {
 .bca_solved_assignment{
     border-radius:4px;
   height: auto;
-    background-color: aqua;
   padding-left:5%;
   font-size:1.2em;
 }
@@ -212,7 +211,6 @@ input[type="submit"]:hover {
   height: auto;
   padding-left:5%;
   font-size:1.2em;
-    background-color:red;
 }
 .mca_solved_assignment a{
     text-decoration: none;
