@@ -2,13 +2,14 @@
 <!-- # Header is fetched -->
 <?php include('header.php'); ?>
 
+
+<div class="col-sm-12 tutHeader">
+    <p><b>TUTORIALS</b></p>
+    </div>
   <!-- Cards Starting From Here  -->
 <div class="row" style="margin-right: 0; margin-left: 0;">
 
-    <div class="col-sm-12 tutHeader">
-    TUTORIALS
-    </div>
-    <div class="col-sm-12">
+    <div class="col-sm-12 tutorial">
 <div class="col-sm-3  ">
           <div class="tutThumbnail ">
               <div class="tutCard_image">
