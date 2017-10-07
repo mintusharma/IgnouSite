@@ -144,7 +144,7 @@
     .sideinfo{
         margin-top:3%;
     }
-    .tabcontainer2{
+    /*.tabcontainer2{
         height:600px;
         background-color:white;
     }
@@ -154,7 +154,7 @@
   height:450px;
 }
 
-}
+}*/
 }
 
 /* media query end here */
@@ -164,9 +164,9 @@
   width:100%;
     margin-top:5px;
     margin-bottom:5px;
-  background-color:navy;
-  height:auto;
-    border:2px solid navy;
+    background-color:#000088;
+    height:auto;
+    border:2px solid #000088;
     border-radius:4px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
@@ -226,6 +226,7 @@ background-color: #000088;
   text-align: center;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
+
 /* side form css style start here */
 
 .sideform{

@@ -315,8 +315,8 @@
             </div>
           </div>
           <div class="form-group">
-            <div class="col-sm-offset-3 col-sm-10">
-              <input type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal" value="Submit">
+            <div class="col-sm-offset-3 col-sm-10" style="margin-left:0;">
+              <input type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" value="Submit">
             </div>
           </div>
         </form>
