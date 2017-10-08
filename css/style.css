@@ -297,11 +297,6 @@
   background-color:whitesmoke;
 }
 .services{
-<<<<<<< HEAD
-    background-color:navy;
-    color: white;
-    margin-top:-10%; 
-=======
   background-color:navy;
   color: white;
   /*margin-top:-10%;*/
@@ -311,11 +306,8 @@
   margin-top: 0;
   padding: 10px;
   font-size: 2.1rem;
->>>>>>> fa5c0c21a08cd4a7651f60b2124915b74025c71c
 }
-
 /* side form css end here */
-
 .other_program_links{
   padding-left:20px;
   margin-top:10px;
@@ -323,7 +315,6 @@
   padding-top:15px;
   font-size:17px;
 }
-
 /*project css start here */
 .projectcontainer{
   margin-left: 0;

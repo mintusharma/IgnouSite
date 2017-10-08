@@ -221,7 +221,7 @@
     </div>
     <div class="row row_margin_LR">
     <div class="col-md-12 other_course">
-    <div class="col-sm-12 qac">OTHER COURSES SOLVED ASSIGNMENT</div>
+    <h2 class="home_contact">OTHER COURSES SOLVED ASSIGNMENT</h2>
         <div class="col-md-4 ot2">
         <p><a href="#">B.COM First Year</a></p>
             <p><a href="#">B.COM Second Year</a></p>
