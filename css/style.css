@@ -20,6 +20,10 @@
   margin-left: 0;
   margin-right: 0;
 }
+.col_padding_LR{
+  padding-left: 0;
+  padding-right: 0;
+}
 
 /* Global Css for elements ends*/
 
@@ -86,7 +90,7 @@
   padding: 0;
 }
 .container-fluid {
-  padding: 60px 50px;
+  padding-top: 50px;
 }
 
 .carousel-inner > .item > img,
@@ -102,11 +106,11 @@
 .tabcontainer2{
   width:100%;
   height:260px;
-    margin-top:5px;
-    margin-bottom:5px;
+  margin-top:5px;
+  margin-bottom:5px;
   background-color:whitesmoke;
   height:auto;
-    border-radius:4px;
+  border-radius:4px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
@@ -136,25 +140,14 @@
 @media screen and (max-width:768px) {
   .sideform{
     margin-top:5%;
-      width:100%;
+    width:100%;
   }
   .sideform2{
     min-width: 100%;
   }
-    .sideinfo{
-        margin-top:3%;
-    }
-    /*.tabcontainer2{
-        height:600px;
-        background-color:white;
-    }
-    #home, #menu1,#menu2,#menu3{
-
-  padding:40px;
-  height:450px;
-}
-
-}*/
+  .sideinfo{
+    margin-top:3%;
+  }
 }
 
 /* media query end here */
@@ -162,23 +155,23 @@
 /* grade card and result tab css start here */
 .tabcontainer2{
   width:100%;
-    margin-top:5px;
-    margin-bottom:5px;
-    background-color:#000088;
-    height:auto;
-    border:2px solid #000088;
-    border-radius:4px;
+  margin-top:5px;
+  margin-bottom:5px;
+  background-color:#000088;
+  height:auto;
+  border:1px solid #000088;
+  border-radius:4px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 .tabcontainer2 a{
-    color: #fff;
+  color: #fff;
 }
 .nav>li>a:hover{
-    background-color: #fff;
-    color:#000088;
+  background-color: #fff;
+  color:#000088;
 }
 .tab-content{
-    height:280px;
+  height:280px;
 }
 
 #home, #menu1,#menu2,#menu3{
@@ -194,52 +187,81 @@
   font-size:2em;
   text-align: center;
   color: white;
-background-color: #000088;
+  background-color: #000088;
   margin-top:-40px;
 }
 #menu2 a{
-    padding: 5px;
-    color:#000088;
-    font-weight: 500;
-    display: block;
-    text-decoration: none;
-    font-size:1.5em;
-    opacity:0.5;
+  padding: 5px;
+  color:#000088;
+  font-weight: 500;
+  display: block;
+  text-decoration: none;
+  font-size:1.5em;
+  opacity:0.8;
 }
 #menu2 a:hover{
-    color:navy;
-     opacity:1;
+  color:navy;
+  opacity:1;
 }
 /* grade card and result tab css end here */
- /* service and menu css end here */
+/* service and menu css end here */
 
 /* side quick access form css start here */
 .sideinfo{
   background-color: white;
   color: black;
-    height: auto;
-    margin-bottom:10px;
-    overflow: hidden;
-    border:2px solid #000088;
-    border-radius:4px;
-    padding: 0;
+  height: auto;
+  margin-bottom:10px;
+  overflow: hidden;
+  border:1px solid #000088;
+  border-radius:4px;
+  padding: 0;
   text-align: center;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 /* side form css style start here */
 
-.sideform{
- background-color:whitesmoke;
-  margin-left:0px;
-  margin-right:0px;
+.home_announcement{
+  background-color:whitesmoke;
+  /*margin-left:0px;
+  margin-right:0px;*/
   border-radius:4px;
   padding: 0;
-    border:2px solid #000088;
+  border:1px solid #000088;
   margin-top:5px;
-  display:inline-block;
+  /*display:inline-block;*/
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
+.home_announcement h2, .home_contact{
+  color:#fff;
+  text-align: center;
+  margin-bottom:0;
+  margin-top: 0;
+  padding: 10px;
+  font-size:2.1rem;
+  background-color:#000088;
+}
+.announcement_content p{
+  background-color: #fff;
+  color: #383838;
+  font-size: 1.7rem;
+  padding: 10px 10px 10px 30px;
+  margin: 0 0 4px 0;
+}
+.announcement_content p:hover{
+  background-color: #f4f4f4;
+}
+.announcement_content p .glyphicon{
+  font-size: 2.1rem;
+  top: 5px;
+}
+.announcement_content p a{
+  color: #000;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
 .sideform2{
   width:29%;
   padding: 0;
@@ -251,56 +273,59 @@ background-color: #000088;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 .form-horizontal .form-group {
-    margin-right:0px;
-    margin-left:0px;
-}
-
-.qac{
-     clear: both;
-    color:#fff;
-    text-align: center;
-    margin-bottom:10px;
-    font-size:2.1em;
-    background-color:#000088;
+  margin-right:0px;
+  margin-left:0px;
 }
 /* side form css style end here  */
 
 /* service-container css start here */
+.services_last_upper{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  border: 1px solid #000088;
+  border-radius: 4px;
+  padding: 0;
+}
 .service-container{
   margin-top:5px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom:5px;
-    padding-left:5%;
-    padding-right:5%;
-    border-radius:4px;
-    background-color:whitesmoke;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom:5px;
+  padding-left:5%;
+  padding-right:5%;
+  border-radius:4px;
+  background-color:whitesmoke;
 }
 .services{
-    background-color:navy;
-    color: white;
-    margin-top:-10%;
-    padding-top:10px; 
+  background-color:navy;
+  color: white;
+  /*margin-top:-10%;*/
+  /*padding-top:-50px;*/
+}
+.services h2{
+  margin-top: 0;
+  padding: 10px;
+  font-size: 2.1rem;
 }
 
 /* side form css end here */
 
 .other_program_links{
-    padding-left:20px;
-    margin-top:10px;
-    margin-left:10px;
-    padding-top:15px;
-    font-size:17px;
+  padding-left:20px;
+  margin-top:10px;
+  margin-left:10px;
+  padding-top:15px;
+  font-size:17px;
 }
 
 /*project css start here */
 .projectcontainer{
-    margin-left: 0;
-    margin-right: 0;
-    padding-left:5%; 
-    padding-right:5%; 
-    background-color: whitesmoke;
-    margin-bottom:2px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left:5%;
+  padding-right:5%;
+  background-color: whitesmoke;
+  margin-bottom:2px;
 }
 /*  Project List Page style start here */
 .projectlist{
@@ -310,17 +335,17 @@ background-color: #000088;
   font-size:1.2em;
 }
 .projectlist a{
-    text-decoration: none;
-    font-size:1.2em;
+  text-decoration: none;
+  font-size:1.2em;
 }
 .panel-default>.panel-heading {
-    color: #fff;
-    background-color: #000088;
-    border-color: #ddd;
+  color: #fff;
+  background-color: #000088;
+  border-color: #ddd;
 }
 .panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
-    border-top: 1px solid #ddd;
-    margin-left: 40px;
+  border-top: 1px solid #ddd;
+  margin-left: 40px;
 }
 
 
@@ -352,40 +377,40 @@ background-color: #000088;
 }
 
 .bigcontainer{
-    margin-left: 0;
-    margin-right: 0;
-    padding-left:5%;
-    padding-right: 5%;
-    background-color:white;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left:5%;
+  padding-right: 5%;
+  background-color:white;
 }
 
 /*footer {
-  color: #f5f5f5;
-  padding: 32px;
-  width:100%;
+color: #f5f5f5;
+padding: 32px;
+width:100%;
 }
 .footertext{
-  height:30%;
-  background-color:#171717;
+height:30%;
+background-color:#171717;
 }
 .footertext p, a{
-  color: #2d2d2d;
-  font-size: 1.5rem;
+color: #2d2d2d;
+font-size: 1.5rem;
 }
 
 .real_footer_text p{
-  color: #fff;
-  font-size: 2rem;
+color: #fff;
+font-size: 2rem;
 }
 
 footer a:hover {
-  color: #000080;
-  text-decoration: none;
+color: #000080;
+text-decoration: none;
 }*/
 
 textarea.form-control {
-    height:65px;
-    resize: none;
+  height:65px;
+  resize: none;
 }
 
 
@@ -477,74 +502,74 @@ textarea.form-control {
 
 
 /*Tutorials Page style start here*/
- .tutorial {
-    background-color: whitesmoke;
-    padding-left: 5%;
-    padding-right: 5%;
+.tutorial {
+  background-color: whitesmoke;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .tutThumbnail{
-     padding: 0;
-    margin-bottom: 10px;
-    margin-top: 5px;
-    height: 250px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    border-radius: 4px;
+  padding: 0;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  height: 250px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
 }
 .tutCard_image{
-    height:80%;
-    width:100%;
-    color: white;
-    padding: 0;
-    border-radius:4px;
-      background-color:lightslategray;
+  height:80%;
+  width:100%;
+  color: white;
+  padding: 0;
+  border-radius:4px;
+  background-color:lightslategray;
 
 }
 
 .tutCard_image img{
-    height:100%;
-    width:100%;
+  height:100%;
+  width:100%;
 }
 
- .tutCard_button {
-    height: 20%;
-    border-radius: 4px;
-    padding: 0;
-    margin: 0;
-    background-color: white;
-  }
+.tutCard_button {
+  height: 20%;
+  border-radius: 4px;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
 
 .tutCard_button a {
 
 
-    color: white;
+  color: white;
 }
 
 .tutCard_button button:hover{
-    background-color:white;
-    color:navy;
+  background-color:white;
+  color:navy;
 }
 
 .tutBtn{
-   width: 100%;
-    height: 100%;
-    /* border-radius: 4px; */
-    background-color: navy;
-    color: white;
-    }
+  width: 100%;
+  height: 100%;
+  /* border-radius: 4px; */
+  background-color: navy;
+  color: white;
+}
 .tutHeader{
-    width: 100%;
-    background-color:#2d4788;
-    height:230px;
+  width: 100%;
+  background-color:#2d4788;
+  height:230px;
 
 }
 .tutHeader p{
-    padding-top:8%;
-    padding-left:2%; 
-    font-size:3em;
-    margin: 0 auto;
-    color: white;
-  }
+  padding-top:8%;
+  padding-left:2%;
+  font-size:3em;
+  margin: 0 auto;
+  color: white;
+}
 
 /*Downloads page css*/
 
