@@ -196,24 +196,26 @@ input[type="submit"]:hover {
 */
 
 /* solved assignment css start here */
-.bca_solved_assignment{
+.solved_assignment{
     border-radius:4px;
   height: auto;
-  padding-left:5%;
   font-size:1.2em;
+    margin-bottom: 0;
 }
-.bca_solved_assignment a{
+.solved_assignment a{
     text-decoration: none;
     font-size:1.2em;
 }
-.mca_solved_assignment{
-    border-radius:4px;
-  height: auto;
-  padding-left:5%;
-  font-size:1.2em;
+.bt{
+    background-color:maroon;
+    font-size:1.6em;
+    color: #fff;
+    width: 100%; 
+    margin-right: 0;
+    text-align: center;
+    margin-left:0; 
+    padding-left: 2%;
+    margin-bottom: 2px;
 }
-.mca_solved_assignment a{
-    text-decoration: none;
-    font-size:1.2em;
-}
+
 

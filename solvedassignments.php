@@ -5,7 +5,8 @@
   </div>
 
 <div class="row projectcontainer">
-<div class="col-sm-6 bca_solved_assignment">
+<div class="col-sm-4 solved_assignment">
+    <div class="row bt">BCA SOLVED ASSIGNMENT</div>
       <div class="panel-group" id="accordion">
         <div class="panel panel-default">
           <div class="panel-heading ">
@@ -13,7 +14,7 @@
               <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse1">BCA First Semester</a>
             </h2>
           </div>
-          <div id="collapse1" class="panel-collapse collapse in">
+          <div id="collapse1" class="panel-collapse collapse ">
             <ul class="list-group">
               <li class="list-group-item"><a href="#">BCS 011 - Solved Assignment</a></li>
               <li class="list-group-item"><a href="#">BCS 012 - Solved Assignment</a></li>
@@ -116,7 +117,8 @@
       </div>
     </div>
     
-    <div class="col-sm-6 mca_solved_assignment">
+    <div class="col-sm-4 solved_assignment">
+        <div class="row bt">MCA SOLVED ASSIGNMENT</div>
       <div class="panel-group" id="accordion2">
         <div class="panel panel-default">
           <div class="panel-heading ">
@@ -124,7 +126,7 @@
               <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion2" href="#collapse7"> MCA First Semester</a>
             </h2>
           </div>
-          <div id="collapse7" class="panel-collapse collapse in">
+          <div id="collapse7" class="panel-collapse collapse ">
             <ul class="list-group">
               <li class="list-group-item"><a href="#">MCS 011 - Solved Assignment</a></li>
                <li class="list-group-item"><a href="#">MCS 012 - Solved Assignment</a></li>
@@ -217,7 +219,340 @@
         </div>
       </div>
     </div>
-    
+    <div class="col-sm-4 solved_assignment">
+    <div class="row bt">BA SOLVED ASSIGNMENT</div>
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading ">
+            <h2 class="panel-title">
+              <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse1">BA First Semester</a>
+            </h2>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse ">
+            <ul class="list-group">
+              <li class="list-group-item"><a href="#">BCS 011 - Solved Assignment</a></li>
+              <li class="list-group-item"><a href="#">BCS 012 - Solved Assignment</a></li>
+              <li class="list-group-item"><a href="#">FEG 02 - Solved Assignment</a></li>
+                 <li class="list-group-item"><a href="#">ECO 01 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 013 - Solved Assignment</a></li> 
+            </ul>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+               <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse2"> BA Second Semester</a>
+            </h4>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse">
+            <ul class="list-group">
+              <li class="list-group-item"><a href="#">ECO 02 - Solved Assignment</a></li>
+              <li class="list-group-item"><a href="#">MCS 011 - Solved Assignment</a></li>
+              <li class="list-group-item"><a href="#">MCS 012 - Solved Assignment</a></li>
+                 <li class="list-group-item"><a href="#">MCS 013 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">MCS 015 - Solved Assignment</a></li> 
+                <li class="list-group-item"><a href="#">BCSL 021 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 022 - Solved Assignment</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+               <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse3"> BA Third Semester</a>
+            </h4>
+          </div>
+          <div id="collapse3" class="panel-collapse collapse">
+            <ul class="list-group">
+              <li class="list-group-item"><a href="#">BCS 031 Solved Assignment</a></li>
+              <li class="list-group-item"><a href="#">MCS 014 Solved Assignment</a></li>
+              <li class="list-group-item"><a href="#">MCS 023 - Solved Assignment</a></li>
+                 <li class="list-group-item"><a href="#">MCS 021 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 032 - Solved Assignment</a></li> 
+                <li class="list-group-item"><a href="#">BCSL 033 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 034 - Solved Assignment</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+               <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse4"> BA Fourth Semester</a>
+            </h4>
+          </div>
+          <div id="collapse4" class="panel-collapse collapse">
+            <ul class="list-group">
+               <li class="list-group-item"><a href="#">BCS 040 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCS 041 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCS 042 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">MCS 024 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 043 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 044 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 045 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">MCSL 016 - Solved Assignment</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+               <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse5"> BA Fifth Semester</a>
+            </h4>
+          </div>
+          <div id="collapse5" class="panel-collapse collapse">
+            <ul class="list-group">
+              <li class="list-group-item"><a href="#">BCS 051 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCS 052 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCS 053 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCS 054 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCS 055 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 056 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 057 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">MCSL 058 - Solved Assignment</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+               <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse6"> BA Sixth Semester</a>
+            </h4>
+          </div>
+          <div id="collapse6" class="panel-collapse collapse">
+            <ul class="list-group">
+                <li class="list-group-item"><a href="#">BCS 062 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">MCS 022 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 063 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSP 064    Project </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="row projectcontainer" style="margin-left:0px;margin-right:0px;">
+    <div class="col-sm-4 solved_assignment">
+    <div class="row bt">B.COM SOLVED ASSIGNMENT</div>
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading ">
+            <h2 class="panel-title">
+              <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse1">B.COM First Semester</a>
+            </h2>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse ">
+            <ul class="list-group">
+              <li class="list-group-item"><a href="#">BCS 011 - Solved Assignment</a></li>
+              <li class="list-group-item"><a href="#">BCS 012 - Solved Assignment</a></li>
+              <li class="list-group-item"><a href="#">FEG 02 - Solved Assignment</a></li>
+                 <li class="list-group-item"><a href="#">ECO 01 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 013 - Solved Assignment</a></li> 
+            </ul>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+               <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse2"> B.COM Second Semester</a>
+            </h4>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse">
+            <ul class="list-group">
+              <li class="list-group-item"><a href="#">ECO 02 - Solved Assignment</a></li>
+              <li class="list-group-item"><a href="#">MCS 011 - Solved Assignment</a></li>
+              <li class="list-group-item"><a href="#">MCS 012 - Solved Assignment</a></li>
+                 <li class="list-group-item"><a href="#">MCS 013 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">MCS 015 - Solved Assignment</a></li> 
+                <li class="list-group-item"><a href="#">BCSL 021 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 022 - Solved Assignment</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+               <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse3"> B.COM Third Semester</a>
+            </h4>
+          </div>
+          <div id="collapse3" class="panel-collapse collapse">
+            <ul class="list-group">
+              <li class="list-group-item"><a href="#">BCS 031 Solved Assignment</a></li>
+              <li class="list-group-item"><a href="#">MCS 014 Solved Assignment</a></li>
+              <li class="list-group-item"><a href="#">MCS 023 - Solved Assignment</a></li>
+                 <li class="list-group-item"><a href="#">MCS 021 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 032 - Solved Assignment</a></li> 
+                <li class="list-group-item"><a href="#">BCSL 033 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 034 - Solved Assignment</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+               <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse4"> B.COM Fourth Semester</a>
+            </h4>
+          </div>
+          <div id="collapse4" class="panel-collapse collapse">
+            <ul class="list-group">
+               <li class="list-group-item"><a href="#">BCS 040 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCS 041 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCS 042 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">MCS 024 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 043 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 044 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 045 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">MCSL 016 - Solved Assignment</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+               <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse5"> B.COM Fifth Semester</a>
+            </h4>
+          </div>
+          <div id="collapse5" class="panel-collapse collapse">
+            <ul class="list-group">
+              <li class="list-group-item"><a href="#">BCS 051 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCS 052 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCS 053 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCS 054 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCS 055 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 056 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 057 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">MCSL 058 - Solved Assignment</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+               <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse6"> B.COM Sixth Semester</a>
+            </h4>
+          </div>
+          <div id="collapse6" class="panel-collapse collapse">
+            <ul class="list-group">
+                <li class="list-group-item"><a href="#">BCS 062 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">MCS 022 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 063 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSP 064    Project </a></li>
+                
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 solved_assignment">
+    <div class="row bt">B.SC SOLVED ASSIGNMENT</div>
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading ">
+            <h2 class="panel-title">
+              <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse1">B.SC First Semester</a>
+            </h2>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse ">
+            <ul class="list-group">
+              <li class="list-group-item"><a href="#">BCS 011 - Solved Assignment</a></li>
+              <li class="list-group-item"><a href="#">BCS 012 - Solved Assignment</a></li>
+              <li class="list-group-item"><a href="#">FEG 02 - Solved Assignment</a></li>
+                 <li class="list-group-item"><a href="#">ECO 01 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 013 - Solved Assignment</a></li> 
+            </ul>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+               <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse2"> B.SC Second Semester</a>
+            </h4>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse">
+            <ul class="list-group">
+              <li class="list-group-item"><a href="#">ECO 02 - Solved Assignment</a></li>
+              <li class="list-group-item"><a href="#">MCS 011 - Solved Assignment</a></li>
+              <li class="list-group-item"><a href="#">MCS 012 - Solved Assignment</a></li>
+                 <li class="list-group-item"><a href="#">MCS 013 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">MCS 015 - Solved Assignment</a></li> 
+                <li class="list-group-item"><a href="#">BCSL 021 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 022 - Solved Assignment</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+               <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse3"> B.SC Third Semester</a>
+            </h4>
+          </div>
+          <div id="collapse3" class="panel-collapse collapse">
+            <ul class="list-group">
+              <li class="list-group-item"><a href="#">BCS 031 Solved Assignment</a></li>
+              <li class="list-group-item"><a href="#">MCS 014 Solved Assignment</a></li>
+              <li class="list-group-item"><a href="#">MCS 023 - Solved Assignment</a></li>
+                 <li class="list-group-item"><a href="#">MCS 021 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 032 - Solved Assignment</a></li> 
+                <li class="list-group-item"><a href="#">BCSL 033 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 034 - Solved Assignment</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+               <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse4"> B.SC Fourth Semester</a>
+            </h4>
+          </div>
+          <div id="collapse4" class="panel-collapse collapse">
+            <ul class="list-group">
+               <li class="list-group-item"><a href="#">BCS 040 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCS 041 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCS 042 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">MCS 024 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 043 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 044 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 045 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">MCSL 016 - Solved Assignment</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+               <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse5"> B.SC Fifth Semester</a>
+            </h4>
+          </div>
+          <div id="collapse5" class="panel-collapse collapse">
+            <ul class="list-group">
+              <li class="list-group-item"><a href="#">BCS 051 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCS 052 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCS 053 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCS 054 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCS 055 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 056 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 057 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">MCSL 058 - Solved Assignment</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+               <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse6"> B.SC Sixth Semester</a>
+            </h4>
+          </div>
+          <div id="collapse6" class="panel-collapse collapse">
+            <ul class="list-group">
+                <li class="list-group-item"><a href="#">BCS 062 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">MCS 022 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSL 063 - Solved Assignment</a></li>
+                <li class="list-group-item"><a href="#">BCSP 064    Project </a></li>
+                
+            </ul>
+          </div>
+        </div>
+      </div>
+</div>
 </div>
 
 <!-- Footer is fetched -->
