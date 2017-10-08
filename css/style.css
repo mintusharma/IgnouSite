@@ -279,6 +279,8 @@ background-color: #000088;
 .services{
     background-color:navy;
     color: white;
+    margin-top:-10%;
+    padding-top:10px; 
 }
 
 /* side form css end here */

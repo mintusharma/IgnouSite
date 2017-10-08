@@ -237,25 +237,25 @@
           <h4>What we offer</h4></div>
           <br>
           <div class="row">
-            <a href="solvedassignments.php">
+            <a href="solvedassignments.php" target="_blank">
               <div class="col-sm-4">
                 <span class="glyphicon glyphicon-list-alt logo-small"></span>
                 <h4>SOLVED ASSIGNMENTS</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
+                Here you can download Solved Assignments for different courses..
               </div>
             </a>
-            <a href="#">
+            <a href="PreviousYearPaper.php" target="_blank">
               <div class="col-sm-4">
                 <span class="glyphicon glyphicon-file logo-small"></span>
                 <h4>PREVIOUS YEAR PAPERS</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
+                Here you can Download Previousn year Question papers ..
               </div>
             </a>
-            <a href="projects.php">
+            <a href="projects.php" target="_blank">
               <div class="col-sm-4">
                 <span class="glyphicon glyphicon-lock logo-small"></span>
                 <h4>PROJECTS</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
+                We provide projects on differents platform..
               </div>
             </a>
           </div>
@@ -265,21 +265,21 @@
               <div class="col-sm-4">
                 <span class="glyphicon glyphicon-education logo-small"></span>
                 <h4>BCA / MCA CLASSES</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
+               Special Classes for BCA/MCA Students
               </div>
             </a>
             <a href="tutorials.php">
               <div class="col-sm-4">
                 <span class="glyphicon glyphicon-education logo-small"></span>
                 <h4>QUICK TUTORIALS</h4>
-                <p>Quick Tuitorials for BCA and MCA Students.</p>
+                Quick Tuitorials for BCA and MCA Students.
               </div>
             </a>
             <a href="#">
               <div class="col-sm-4">
                 <span class="glyphicon glyphicon-th-large logo-small"></span>
-                <h4>OTHER PROGRAMMING CLASSES</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
+                <h4>OTHER CLASSES</h4>
+                We also provide the classes for other programming language..
               </div>
             </a>
           </div>
