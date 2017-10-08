@@ -9,6 +9,7 @@ body{clear: both; margin: 0 auto;}
     font-size:3em;
     margin: 0 auto;
     color: white;
+    overflow: hidden;
   }
   .card_views{
     height:auto;
@@ -197,25 +198,67 @@ input[type="submit"]:hover {
 
 /* solved assignment css start here */
 .solved_assignment{
-    border-radius:4px;
-  height: auto;
-  font-size:1.2em;
-    margin-bottom: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top:5px; 
+    
 }
 .solved_assignment a{
     text-decoration: none;
     font-size:1.2em;
 }
-.bt{
-    background-color:maroon;
-    font-size:1.6em;
+.solved_assignment2 a{
+    text-decoration: none;
+    font-size:1.2em;
     color: #fff;
+}
+.bt{
+    background-color:#5b5d6b;
+    font-size:2.2em;
+    color: #fff;
+    overflow: hidden;
     width: 100%; 
-    margin-right: 0;
+    height:50px;
+    padding:5px; 
     text-align: center;
-    margin-left:0; 
-    padding-left: 2%;
     margin-bottom: 2px;
 }
+.bca_solved{
+    background-color:navy;
+    color: #fff;
+    margin-bottom:5px;
+    border-bottom:10px solid navy; 
+}
+.sem{
+    background-color:white;
+    color: navy; 
+}
+.lists{
+    background-color: navy;
+    color: white;
+    padding: 0;
+    margin-bottom:5px; 
+}
+.lists li{
+    display:block;
+    
+}
+.other_course{
+    background-color: white;
+  color: black;
+    height: auto; 
+    margin-bottom:10px;
+    overflow: hidden;
+    border:2px solid #000088;
+    border-radius:4px;
+    padding: 0;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
 
+.ot2 a{
+    padding-left:15%;
+    font-size:1.5em; 
+    color:#000088;
+}
 
