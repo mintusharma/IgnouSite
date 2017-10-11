@@ -1,4 +1,4 @@
-<?php include_once("header.php");?>
+<?php require_once("header.php");?>
 
 <div class="container-fluid about_container">
   <h1 class="about_h1"><?php echo ucfirst("Changelog _D"); ?></h1>
@@ -37,4 +37,4 @@
 </div>
 
 
-<?php include_once("footer.php");?>
+<?php require_once("footer.php");?>

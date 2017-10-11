@@ -1,5 +1,5 @@
 <!-- # Header is fetched -->
-<?php include('header.php'); ?>
+<?php require_once('header.php'); ?>
 
 <div class="container-fluid about_container contact_container">
   <h1 class="about_h1"><?php echo ucfirst("Contact Us"); ?></h1>
@@ -59,4 +59,4 @@
 
 
 <!-- # Footer is fetched -->
-<?php include('footer.php'); ?>
+<?php require_once('footer.php'); ?>

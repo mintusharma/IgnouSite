@@ -1,5 +1,5 @@
 <!-- # Header is fetched -->
-<?php include('header.php'); ?>
+<?php require_once('header.php'); ?>
 
 <?php
   $teamMembers =  array('Shivam Rajput', 'Ishminder kharbanda', 'Mintu Sharma');
@@ -129,4 +129,4 @@
 
 
 <!-- # Footer is fetched -->
-<?php include('footer.php'); ?>
+<?php require_once('footer.php'); ?>
