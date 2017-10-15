@@ -19,7 +19,7 @@ $urlp = 'https://webservices.ignou.ac.in/assignments/mca/';
 <div class="col-md-4 ">
           <div class="thumbnail">
               <div class="card_image">
-                  <div class="bg-ignou_1st_sem floats"></div>
+                <img class="img-responsive" src="images/1.png" alt="Ignousite.com icon">
             </div>
             <div class="card_button">
                 <a href="<?php echo $url;?>2017-18/BCA%20SEMESTER-I_2.pdf" target="_blank"><button type="button" class="btn  btn-primary btn-block">July - January (2017-2018)</button></a>
@@ -29,8 +29,9 @@ $urlp = 'https://webservices.ignou.ac.in/assignments/mca/';
         </div>
     <div class="col-md-4 ">
           <div class="thumbnail">
-              <div class="card_image bg-ignou_2nd_sem floats">
-            </div>
+            <div class="card_image">
+              <img class="img-responsive" src="images/2.png" alt="Ignousite.com icon">
+          </div>
             <div class="card_button">
                 <a href="<?php echo $url;?>2017-18/SEMESTER-II_3.pdf" target="_blank"><button type="button" class="btn  btn-primary btn-block">July - January (2017-2018)</button></a>
            <a href="<?php echo $url;?>2016-17/BCA%202nd%20Sem%20Assignment%202016-17.pdf" target="_blank"><button type="button" class="btn  btn-primary btn-block">July - January (2016-2017)</button></a>
@@ -39,8 +40,9 @@ $urlp = 'https://webservices.ignou.ac.in/assignments/mca/';
         </div>
     <div class="col-md-4 ">
           <div class="thumbnail">
-              <div class="card_image bg-ignou_3rd_sem floats">
-            </div>
+            <div class="card_image">
+              <img class="img-responsive" src="images/3.png" alt="Ignousite.com icon">
+          </div>
             <div class="card_button">
                 <a href="<?php echo $url;?>2017-18/SEMESTER-III_3.pdf" target="_blank"><button type="button" class="btn  btn-primary btn-block">July - January (2017-2018)</button></a>
            <a href="<?php echo $url;?>2016-17/BCA%203rd%20Sem%20Assignment%202016-17.pdf" target="_blank"><button type="button" class="btn  btn-primary btn-block">July - January (2016-2017)</button></a>
@@ -49,8 +51,9 @@ $urlp = 'https://webservices.ignou.ac.in/assignments/mca/';
         </div>
     <div class="col-md-4 ">
           <div class="thumbnail">
-              <div class="card_image bg-ignou_4th_sem floats">
-            </div>
+            <div class="card_image">
+              <img class="img-responsive" src="images/4.png" alt="Ignousite.com icon">
+          </div>
             <div class="card_button">
                 <a href="<?php echo $url;?>2017-18/SEMESTER-IV_4.pdf" target="_blank"><button type="button" class="btn  btn-primary btn-block">July - January (2017-2018)</button></a>
            <a href="<?php echo $url;?>2016-17/BCA%204th%20Sem%20Assignment%202016-17.pdf" target="_blank"><button type="button" class="btn  btn-primary btn-block">July - January (2016-2017)</button></a>
@@ -59,8 +62,9 @@ $urlp = 'https://webservices.ignou.ac.in/assignments/mca/';
         </div>
     <div class="col-md-4 ">
           <div class="thumbnail">
-              <div class="card_image bg-ignou_5th_sem floats">
-            </div>
+            <div class="card_image">
+              <img class="img-responsive" src="images/5.png" alt="Ignousite.com icon">
+          </div>
             <div class="card_button">
                 <a href="<?php echo $url;?>2017-18/SEMESTER-V_3.pdf" target="_blank"><button type="button" class="btn  btn-primary btn-block">July - January ( 2017 - 2018 )</button></a>
            <a href="<?php echo $url;?>2016-17/BCA%205th%20Sem%20Assignment%202016-17.pdf" target="_blank"><button type="button" class="btn  btn-primary btn-block">July - January (2016-2017)</button></a>
@@ -69,8 +73,9 @@ $urlp = 'https://webservices.ignou.ac.in/assignments/mca/';
         </div>
     <div class="col-md-4 ">
           <div class="thumbnail">
-              <div class="card_image bg-ignou_6_sem floats">
-            </div>
+            <div class="card_image">
+              <img class="img-responsive" src="images/6.png" alt="Ignousite.com icon">
+          </div>
             <div class="card_button">
                 <a href="<?php echo $url;?>2017-18/SEMESTER-VI_3.pdf" target="_blank"><button type="button" class="btn  btn-primary btn-block">July - January (2017-2018)</button></a>
            <a href="<?php echo $url;?>2016-17/BCA%206th%20Sem%20Assignment%202016-17.pdf" target="_blank"><button type="button" class="btn  btn-primary btn-block">July - January (2016-2017)</button></a>
@@ -84,7 +89,8 @@ $urlp = 'https://webservices.ignou.ac.in/assignments/mca/';
     </div>
 <div class="col-md-4 ">
           <div class="thumbnail">
-              <div class="card_image bg-ignou_1st_sem floats">
+            <div class="card_image">
+                <img class="img-responsive" src="images/1.png" alt="Ignousite.com icon">
             </div>
             <div class="card_button">
                 <a href="<?php echo $urlp;?>2017-2018/mca%20semester-i.pdf" target="_blank"><button type="button" class="btn  btn-primary btn-block">July - January (2017-2018)</button></a>
@@ -94,7 +100,8 @@ $urlp = 'https://webservices.ignou.ac.in/assignments/mca/';
         </div>
     <div class="col-md-4 ">
           <div class="thumbnail">
-              <div class="card_image bg-ignou_2nd_sem floats">
+              <div class="card_image">
+                <img class="img-responsive" src="images/2.png" alt="Ignousite.com icon">
             </div>
             <div class="card_button">
                 <a href="<?php echo $urlp;?>2017-2018/mca%20semester-ii.pdf" target="_blank"><button type="button" class="btn  btn-primary btn-block">July - January (2017-2018)</button></a>
@@ -104,7 +111,8 @@ $urlp = 'https://webservices.ignou.ac.in/assignments/mca/';
         </div>
     <div class="col-md-4 ">
           <div class="thumbnail">
-              <div class="card_image bg-ignou_3rd_sem floats">
+              <div class="card_image">
+                <img class="img-responsive" src="images/3.png" alt="Ignousite.com icon">
             </div>
             <div class="card_button">
                 <a href="<?php echo $urlp;?> 2017-2018/mca%20semester-iii.pdf" target="_blank"><button type="button" class="btn  btn-primary btn-block">July - January (2017-2018)</button></a>
@@ -114,7 +122,8 @@ $urlp = 'https://webservices.ignou.ac.in/assignments/mca/';
         </div>
     <div class="col-md-4 ">
           <div class="thumbnail">
-              <div class="card_image bg-ignou_4th_sem floats">
+              <div class="card_image">
+                <img class="img-responsive" src="images/4.png" alt="Ignousite.com icon">
             </div>
             <div class="card_button">
                 <a href="<?php echo $urlp;?>2017-2018/mca%20semester-iv.pdf" target="_blank"><button type="button" class="btn  btn-primary btn-block">July - January (2017-2018)</button></a>
@@ -124,7 +133,8 @@ $urlp = 'https://webservices.ignou.ac.in/assignments/mca/';
         </div>
     <div class="col-md-4 ">
           <div class="thumbnail">
-             <div class="card_image bg-ignou_5th_sem floats">
+             <div class="card_image">
+                <img class="img-responsive" src="images/5.png" alt="Ignousite.com icon">
             </div>
             <div class="card_button">
                 <a href="<?php echo $urlp;?> 2017-2018/mca%20semester-v.pdf" target="_blank"><button type="button" class="btn  btn-primary btn-block">July - January (2017-2018)</button></a>
@@ -134,7 +144,8 @@ $urlp = 'https://webservices.ignou.ac.in/assignments/mca/';
         </div>
     <div class="col-md-4 ">
           <div class="thumbnail">
-              <div class="card_image bg-ignou_6_sem floats">
+              <div class="card_image">
+                <img class="img-responsive" src="images/6.png" alt="Ignousite.com icon">
             </div>
             <div class="card_button">
                 <a href="<?php echo $urlp;?>2017-2018/mca%20mcsp-060.pdf" target="_blank"><button type="button" class="btn  btn-default btn-block">July - January (2017-2018)</button></a>

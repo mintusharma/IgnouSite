@@ -70,9 +70,12 @@ body{clear: both; margin: 0 auto;}
     width:100%;
     color: white;
     padding: 0;
+      background-color:whitesmoke;
     border-radius:4px;
-    background-color:red;
-
+}
+.card_image img{
+    width: 100%;
+    height: 100%;
 }
 
 
