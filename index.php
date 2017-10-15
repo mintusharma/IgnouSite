@@ -138,12 +138,12 @@
     <div class="col-sm-3 home_announcement">
       <h2>ANNOUNCEMENT</h2>
       <div class="announcement_content">
-        <p><i class="glyphicon glyphicon-bullhorn"></i><a href="#">Hall Ticket (2017)</a></p>
-        <p><i class="glyphicon glyphicon-bullhorn"></i><a href="#">Tentative Datesheet</a></p>
-        <p><i class="glyphicon glyphicon-bullhorn"></i><a href="#">Previous Year Papers</a></p>
-        <p><i class="glyphicon glyphicon-bullhorn"></i><a href="#">BCA/MCA Exam Notes</a></p>
-        <p><i class="glyphicon glyphicon-bullhorn"></i><a href="#">Re-registration (2018)</a></p>
-        <p><i class="glyphicon glyphicon-bullhorn"></i><a href="#">Fresh Addminsion</a></p>
+        <p><i class="glyphicon glyphicon-bullhorn"></i><a href="https://avserver.ignou.ac.in/HallTicket/Hall_1217/Hall1217.asp" target="_blank">Hall Ticket (2017)</a></p>
+        <p><i class="glyphicon glyphicon-bullhorn"></i><a href="http://www.ignou.ac.in/userfiles/new_date_sheet.PDF" target="_blank">Tentative Datesheet</a></p>
+        <p><i class="glyphicon glyphicon-bullhorn"></i><a href="#" target="_blank">Previous Year Papers</a></p>
+        <p><i class="glyphicon glyphicon-bullhorn"></i><a href="#" target="_blank">BCA/MCA Exam Notes</a></p>
+        <p><i class="glyphicon glyphicon-bullhorn"></i><a href="https://onlineadmission.ignou.ac.in/onlinerr/" target="_blank">Re-registration (2018)</a></p>
+        <p><i class="glyphicon glyphicon-bullhorn"></i><a href="https://onlineadmission.ignou.ac.in/" target="_blank">Fresh Addminsion</a></p>
         <!-- <p><i class="glyphicon glyphicon-bullhorn"></i><a href="#">Convocation</a></p> -->
       </div>
     </div>
@@ -159,7 +159,7 @@
           <h4 class="modal-title">Thankyou </h4>
         </div>
         <div class="modal-body">
-          <iframe name="i_frame" style="height:750px; width:80%;"></iframe>
+          <iframe name="i_frame" style="height:150px; width:100%;"></iframe>
         </div>
         <div class="modal-footer">
           <input type="submit" value="Close" class="btn btn-default" data-dismiss="modal">
@@ -233,7 +233,7 @@
           <h2 class="home_contact">PING US</h2>
           <div class="project-list">
             <form class="form-horizontal" target="_self" >
-              <div class="form-group">
+              <div class="form-group" style="padding-top:10px;">
                 <label class="control-label col-sm-3" for="email">Name : </label>
                 <div class="col-sm-9">
                   <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
