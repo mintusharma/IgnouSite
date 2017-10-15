@@ -54,7 +54,7 @@
   background-color:#fff !important;
   height: 100%;
 }
-.navbar-default .navbar-toggle {
+.navbar-default {
   border-color:navy;
   color: #fff !important;
 }
@@ -82,6 +82,20 @@
   color: #000080; /* Navy color hex*/
 }
 
+/*Toggle button Style starts*/
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+    border-color: #90afe6;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #90afe6;
+}
+.navbar-collapse {
+  border-top: none;
+}
+/*Toggle button Style ends*/
 
 /* End of Navigationbar style*/
 
@@ -584,6 +598,14 @@ textarea.form-control {
   padding-top: 50px;
   padding-left: 20px;
 }
+@media(max-width:600px){
+  .about_container{height: 120px;}
+  .about_h1{
+    padding-top: 0;
+    font-size: 3rem;
+    display: table-row;
+  }
+}
 .about_img img{
   max-width: 350px;
   width: 100%;
@@ -596,8 +618,8 @@ textarea.form-control {
   background-color: #f7f7f7;
   height: auto;
 }
-.row_about .col-md-6, .col-sm-6, .col-xs-12{
-  padding: 50px;
+.row_about .col-md-6{
+  padding: 40px;
   margin: 0 auto;
 }
 .about_paragraph p{
@@ -609,6 +631,7 @@ textarea.form-control {
 .social_profiles img{
   width: 100px;
   height: auto;
+  margin: auto;
   margin-top: 20px;
 }
 .social_profiles img:hover{
@@ -639,6 +662,9 @@ textarea.form-control {
   /*font-size: 2.5rem;*/
   font-weight: 500;
 }
+.team_card>.card-body>.card-text{
+  color: #676767;
+}
 
 /* ABOUT US PAGE CSS ENDS HERE*/
 
@@ -665,6 +691,12 @@ textarea.form-control {
 }
 .contact_heading{
   margin-bottom: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.contact_heading p{
+  margin: 5px 0 5px 0;
+  /*margin-left: 0;*/
 }
 .contact_info_heading{
   border-bottom: .1px solid #879bbd;
@@ -695,6 +727,9 @@ div.contact_main_wrapper form button{
 }
 .contact_ul li{
   margin-bottom: 15px;
+  display: flex;
+  overflow: -webkit-paged-x;
+  /*text-overflow: hidden;*/
 }
 .contact_ul li .glyphicon{
   margin-right: 10px;

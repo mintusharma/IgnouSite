@@ -68,13 +68,13 @@
         </div>
       </div>
     </div>
-    <div class="col-md-2"></div>
   </div>
+  <div class="col-md-2"></div>
 
 </div>
 
 <!-- Team section starts here -->
-<div class="row row_about" style="background-color:#f8f8f8; padding-bottom:60px;">
+<div class="row row_about" style="background-color:#f8f8f8; padding:0; padding-bottom:60px;">
   <div class="social_profiles_heading"><h2 style="color:#2d4788;"><?php echo ucfirst("Ignousite Team"); ?></h2></div>
   <!-- <hr> -->
   <div class="col-md-2"></div>
@@ -83,7 +83,7 @@
       <div class="col-md-12">
         <div class="row">
 
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-4 col-xs-12">
             <div class="card team_card">
               <img class="card-img-top team_card_img" src="images/ignousite-iconn.png" alt="Card image cap">
               <div class="card-body team_card_body">
@@ -94,7 +94,7 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-4 col-xs-12">
             <div class="card team_card">
               <img class="card-img-top team_card_img" src="images/ignousite-iconn.png" alt="Card image cap">
               <div class="card-body">
@@ -105,7 +105,7 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-4 col-xs-12">
             <div class="card team_card">
               <img class="card-img-top team_card_img" src="images/ignousite-iconn.png" alt="Card image cap">
               <div class="card-body">

@@ -7,8 +7,8 @@
 
 <!-- About us Page  bigcontainer -->
 <div class="row contact_row">
-  <div class="col-md-2"></div>
-  <div class="col-md-8">
+  <div class="col-md-2 col-sm-2 col-xs-2"></div>
+  <div class="col-md-8 col-sm-8">
     <div class="row">
       <div class="contact_heading">
         <p>We would love to hear from you. Tell us what you think about ignousite or you want to suggest something, go ahead and send us your message.</p>
@@ -29,7 +29,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="contact_main_wrapper" style="border-left:.06px solid #879bbd;">
+          <div class="contact_main_wrapper">
             <div class="contact_info_heading">
               <h4>Message Ignousite</h4>
             </div>
@@ -53,7 +53,7 @@
       </div>
     </div>
   </div>
-  <div class="col-md-2"></div>
+  <div class="col-md-2 col-sm-2 col-xs-2"></div>
 </div>
 
 
