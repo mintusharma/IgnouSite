@@ -224,7 +224,7 @@
                   We also provide the classes for other programming language..
                 </div>
               </a>
-            </div>
+            </div><br>
           </div>
         </div>
 
@@ -252,7 +252,7 @@
                 </div><br>
               </div>
               <div class="form-group">
-                <label class="control-label col-sm-3" for="pwd">Mobile : </label>
+                <label class="control-label col-sm-3" for="pwd">Mobile:</label>
                 <div class="col-sm-9">
                   <input type="tel" class="form-control" id="mobile" placeholder="Enter Mobile " name="mobile">
                 </div>
