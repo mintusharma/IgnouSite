@@ -234,26 +234,22 @@
           <div class="project-list">
             <form class="form-horizontal" target="_self" >
               <div class="form-group" style="padding-top:10px;">
-                <label class="control-label col-sm-3" for="email">Name : </label>
-                <div class="col-sm-9">
+                 <div class="col-sm-9">
                   <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
                 </div>
               </div>
               <div class="form-group">
-                <label class="control-label col-sm-3" for="pwd">Email : </label>
                 <div class="col-sm-9">
                   <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
                 </div>
               </div>
               <div class="form-group">
-                <label class="control-label col-sm-3" for="pwd">Query : </label>
-                <div class="col-sm-9">
+                 <div class="col-sm-9">
                   <textarea class="form-control" placeholder="Query" maxlength="150" ></textarea>
                 </div><br>
               </div>
               <div class="form-group">
-                <label class="control-label col-sm-3" for="pwd">Mobile:</label>
-                <div class="col-sm-9">
+                 <div class="col-sm-9">
                   <input type="tel" class="form-control" id="mobile" placeholder="Enter Mobile " name="mobile">
                 </div>
               </div>
