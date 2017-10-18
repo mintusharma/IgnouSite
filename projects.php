@@ -10,7 +10,7 @@
         <div class="panel panel-default">
           <div class="panel-heading ">
             <h2 class="panel-title">
-              <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse1"> Projects On Java Language</a>
+              <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse1"> Projects On Java</a>
             </h2>
           </div>
           <div id="collapse1" class="panel-collapse collapse in">
@@ -65,7 +65,7 @@
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-               <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse4"> Beginners Level Projects</a>
+               <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse4"> Mini Projects</a>
             </h4>
           </div>
           <div id="collapse4" class="panel-collapse collapse">
@@ -83,7 +83,7 @@
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-               <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse5"> Advanced Level Projects</a>
+               <a data-toggle="collapse" class="btn2 collapsed" data-parent="#accordion" href="#collapse5"> Advanced Projects</a>
             </h4>
           </div>
           <div id="collapse5" class="panel-collapse collapse">
@@ -113,7 +113,7 @@
     
     
     <div class="col-sm-3 sideform2">
-        <div class="col-sm-12 qac">Quick Access</div>
+         <h2 class="home_contact">Quick Connect</h2>
       <form class="form-horizontal" target="_self" >
         <br>
         <div class="form-group">
