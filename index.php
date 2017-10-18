@@ -231,30 +231,30 @@
         <div class="col-sm-3 sideinfo">
           <!-- <div class="col-sm-12 qac">Quick Contact</div> -->
           <h2 class="home_contact">PING US</h2>
-          <div class="project-list">
+          <div class="project-list" style="padding:5%;">
             <form class="form-horizontal" target="_self" >
-              <div class="form-group" style="padding-top:10px;">
-                 <div class="col-sm-9">
+              <div class="form-group">
+                 <div class="col-sm-12">
                   <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
                 </div>
               </div>
               <div class="form-group">
-                <div class="col-sm-9">
+                <div class="col-sm-12">
                   <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
                 </div>
               </div>
               <div class="form-group">
-                 <div class="col-sm-9">
+                 <div class="col-sm-12">
                   <textarea class="form-control" placeholder="Query" maxlength="150" ></textarea>
                 </div><br>
               </div>
               <div class="form-group">
-                 <div class="col-sm-9">
+                 <div class="col-sm-12">
                   <input type="tel" class="form-control" id="mobile" placeholder="Enter Mobile " name="mobile">
                 </div>
               </div>
               <div class="form-group">
-                <div class="col-sm-offset-3 col-sm-10" style="margin-left:0;">
+                <div class="col-sm-offset-3 col-sm-5" style="margin-left:0;">
                   <input type="submit" class="btn btn-primary" data-toggle="modal" data-target="#myModal" value="Submit">
                 </div>
               </div>

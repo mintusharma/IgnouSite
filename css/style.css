@@ -229,7 +229,7 @@
   overflow: hidden;
   border:1px solid #000088;
   border-radius:4px;
-  padding: 0;
+  padding:0;
   text-align: center;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
