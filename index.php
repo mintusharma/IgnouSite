@@ -39,7 +39,7 @@
 
 <div class="row bigcontainer">
   <div class="col-sm-9">
-    <div class="tabcontainer2"><br>
+    <div class="menu_tab_container"><br>
       <ul class="nav nav-tabs">
         <li><a data-toggle="tab" href="#home">WHY IGNOU</a></li>
         <li class="active"><a data-toggle="tab" href="#menu1">GRADE CARD</a></li>
@@ -171,7 +171,7 @@
 
   <!-- Container (Services Section) -->
   <div class="row row_margin_LR">
-    <div class="col-sm-12 service-container">
+    <div class="col-sm-12 service_container">
       <div class="col-sm-9">
         <div class="container-fluid text-center services_last_upper">
           <div class="services">

@@ -26,8 +26,6 @@
 }
 
 /* Global Css for elements ends*/
-
-
 /* Navigationbar Style Start Here*/
 .navbar {
   margin-bottom: 0;
@@ -43,7 +41,6 @@
   border-radius: 0;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
-
 .navbar li a, .navbar {
   color: #fff !important;
   font-weight: 800;
@@ -65,23 +62,12 @@
   font-size: 1.3em;
   letter-spacing: 3px;
 }
-
 #padding_bottom{
   margin-bottom: 60px; /* This eliminates the absence of margin [Don't remove it] */
-}
-.carousel-control.left, .carousel-control.right{
-  background-image: none;
-}
-.carousel-control{
-  color: transparent;
 }
 .navbar-brand{
   padding: 1px 1px;
 }
-.carousel-control:focus, .carousel-control:hover{
-  color: #000080; /* Navy color hex*/
-}
-
 /*Toggle button Style starts*/
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color: #fff;
@@ -96,59 +82,7 @@
   border-top: none;
 }
 /*Toggle button Style ends*/
-
 /* End of Navigationbar style*/
-
-.container{
-  width: 100%;
-  padding: 0;
-}
-.container-fluid {
-  padding-top: 50px;
-}
-
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-  width: 100%;
-  height:100%;
-  background-color: cadetblue;
-}
-.mycarousel-control{
-  opacity: .4;
-  width:100px;
-}
-.tabcontainer2{
-  width:100%;
-  height:260px;
-  margin-top:5px;
-  margin-bottom:5px;
-  background-color:whitesmoke;
-  height:auto;
-  border-radius:4px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
-
-
-.logo-small {
-  color:navy;
-  font-size: 60px;
-}
-
-.text-center{
-  width:100%;
-  margin: 0 auto;
-  background-color: whitesmoke;
-}
-.text-center2{
-  width:100%;
-  margin: 0 auto;
-}
-
-.text-center a{
-  text-decoration: none;
-  /*color:black;*/
-}
-
 
 /* media query start here */
 @media screen and (max-width:768px) {
@@ -163,173 +97,7 @@
     margin-top:3%;
   }
 }
-
 /* media query end here */
-
-/* grade card and result tab css start here */
-.tabcontainer2{
-  width:100%;
-  margin-top:5px;
-  margin-bottom:5px;
-  background-color:#000088;
-  height:auto;
-  border:1px solid #000088;
-  border-radius:4px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
-.tabcontainer2 a{
-  color: #fff;
-}
-.nav>li>a:hover{
-  background-color: #fff;
-  color:#000088;
-}
-.tab-content{
-  height:280px;
-}
-
-#home, #menu1,#menu2,#menu3{
-  background-color: white;
-  border: 5px solid whitesmoke;
-  padding:20px;
-  height:100%;
-}
-#menu1{
-  padding:52px;
-}
-#menu1 h4{
-  font-size:2em;
-  text-align: center;
-  color: white;
-  background-color: #000088;
-  margin-top:-40px;
-}
-#menu2 a{
-  padding: 5px;
-  color:#000088;
-  font-weight: 500;
-  display: block;
-  text-decoration: none;
-  font-size:1.5em;
-  opacity:0.8;
-}
-#menu2 a:hover{
-  color:navy;
-  opacity:1;
-}
-/* grade card and result tab css end here */
-/* service and menu css end here */
-
-/* side quick access form css start here */
-.sideinfo{
-  background-color: white;
-  color: black;
-  height: auto;
-  margin-bottom:10px;
-  overflow: hidden;
-  border:1px solid #000088;
-  border-radius:4px;
-  padding:0;
-  text-align: center;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
-
-/* side form css style start here */
-
-.home_announcement{
-  background-color:whitesmoke;
-  /*margin-left:0px;
-  margin-right:0px;*/
-  border-radius:4px;
-  padding: 0;
-  border:1px solid #000088;
-  margin-top:5px;
-  /*display:inline-block;*/
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
-.home_announcement h2, .home_contact{
-  color:#fff;
-  text-align: center;
-  margin-bottom:0;
-  margin-top: 0;
-  padding: 10px;
-  font-size:2.1rem;
-  background-color:#000088;
-}
-.announcement_content p{
-  background-color: #fff;
-  color: #383838;
-  font-size: 1.7rem;
-  padding: 10px 10px 10px 30px;
-  margin: 0 0 4px 0;
-}
-.announcement_content p:hover{
-  background-color: #f4f4f4;
-}
-.announcement_content p .glyphicon{
-  font-size: 2.1rem;
-  top: 5px;
-}
-.announcement_content p a{
-  color: #000;
-  text-decoration: none;
-  margin-left: 25px;
-}
-
-.sideform2{
-  width:29%;
-  padding: 0;
-  border:6px solid navy;
-  color: black;
-  border-radius:4px;
-  background-color:whitesmoke;
-  text-align: center;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
-.form-horizontal .form-group {
-  margin-right:0px;
-  margin-left:0px;
-   
-}
-/* side form css style end here  */
-
-/* service-container css start here */
-.services_last_upper{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: white;
-  border: 1px solid #000088;
-  border-radius: 4px;
-  padding: 0;
-}
-.service-container{
-  margin-top:5px;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom:5px;
-  padding-left:5%;
-  padding-right:5%;
-  border-radius:4px;
-  background-color:whitesmoke;
-}
-.services{
-  background-color:navy;
-  color: white;
-  /*margin-top:-10%;*/
-  /*padding-top:-50px;*/
-}
-.services h2{
-  margin-top: 0;
-  padding: 10px;
-  font-size: 2.1rem;
-}
-/* side form css end here */
-.other_program_links{
-  padding-left:20px;
-  margin-top:10px;
-  margin-left:10px;
-  padding-top:15px;
-  font-size:17px;
-}
 /*project css start here */
 .projectcontainer{
   margin-left: 0;
@@ -349,22 +117,7 @@
 .projectlist a{
   text-decoration: none;
 }
-.panel-default>.panel-heading {
-  color: #fff;
-  background-color: #000088;
-  border-color: #ddd;
-}
-.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
-  border-top: 1px solid #ddd;
-  margin-left: 40px;
-}
-
-
 /*project  css end here */
-
-
-
-
 /*project list buttons css start here */
 .btn2:after {
   font-family: "Glyphicons Halflings";
@@ -378,60 +131,15 @@
 }
 
 /*project list buttons css end here */
-
-
-
-
 .mark{
   height:88%;
   background-color: white;
 }
 
-.bigcontainer{
-  margin-left: 0;
-  margin-right: 0;
-  padding-left:5%;
-  padding-right: 5%;
-  background-color:white;
-}
-
-/*footer {
-color: #f5f5f5;
-padding: 32px;
-width:100%;
-}
-.footertext{
-height:30%;
-background-color:#171717;
-}
-.footertext p, a{
-color: #2d2d2d;
-font-size: 1.5rem;
-}
-
-.real_footer_text p{
-color: #fff;
-font-size: 2rem;
-}
-
-footer a:hover {
-color: #000080;
-text-decoration: none;
-}*/
-
-textarea.form-control {
-  height:65px;
-  resize: none;
-}
-
-
 .thoughts{
   margin-top:5px;
 }
-
-
 /*   
-
 .popupmodel{
  padding-top:-150px ;
 } */
@@ -464,9 +172,6 @@ textarea.form-control {
   text-align: center;
 
 }
-
-
-
 /* style css for contact page */
 .aboutustitle{
   height: 250px;
@@ -482,7 +187,6 @@ textarea.form-control {
   font-size:4.5em;
 
 }
-
 .titlepage{
   height: 570px;
 }
@@ -502,24 +206,19 @@ textarea.form-control {
   clear: both;
 
 }
-
 .map{
   height:400px;
   background-color: aqua;
   margin: 0 auto;
   clear: both;
 }
-
 /* end of contact form style */
-
-
 /*Tutorials Page style start here*/
 .tutorial {
   background-color: whitesmoke;
   padding-left: 5%;
   padding-right: 5%;
 }
-
 .tutThumbnail{
   padding: 0;
   margin-bottom: 10px;
@@ -537,12 +236,10 @@ textarea.form-control {
   background-color:lightslategray;
 
 }
-
 .tutCard_image img{
   height:100%;
   width:100%;
 }
-
 .tutCard_button {
   height: 20%;
   border-radius: 4px;
@@ -550,18 +247,15 @@ textarea.form-control {
   margin: 0;
   background-color: white;
 }
-
 .tutCard_button a {
 
 
   color: white;
 }
-
 .tutCard_button button:hover{
   background-color:white;
   color:navy;
 }
-
 .tutBtn{
   width: 100%;
   height: 100%;
@@ -582,11 +276,8 @@ textarea.form-control {
   margin: 0 auto;
   color: white;
 }
-
 /*Downloads page css*/
-
 /* ABOUT US PAGE CSS STARTS HERE*/
-
 .about_container{
   height: 250px;
   background-color: #2d4788;
@@ -674,7 +365,6 @@ textarea.form-control {
   background-image: url(../images/breadcrumb.jpg);
   background-repeat: no-repeat;
 }
-
 .contact_row{
   background-color: #2d4788;
   color: #fff;
@@ -735,9 +425,7 @@ div.contact_main_wrapper form button{
 .contact_ul li .glyphicon{
   margin-right: 10px;
 }
-
 /* CONTACT ROW ENDS HERE _D */
-
 /* FOOTER STYLES STARTS HERE */
 footer{
   background-color: #000080;
@@ -779,7 +467,6 @@ footer .row{
 .footer_social_links a:last-of-type{
   border-right: none;
 }
-
 .footer_bottom{
   background-color: #2d4788;
   padding: 20px 10px 10px 30px;
@@ -799,5 +486,4 @@ footer .row{
   float: right;
   font-weight: 800;
 }
-
 /* FOOTER STYLES ENDS HERE */
