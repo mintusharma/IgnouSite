@@ -7,9 +7,10 @@ $url = 'https://webservices.ignou.ac.in/assignments/bca/';
 $urlp = 'https://webservices.ignou.ac.in/assignments/mca/';
 ?>
 
-  <div class="col-sm-12 assignment">
-    <p><b>Assignments</b></p>
-  </div>
+ 
+<div class="container-fluid about_container">
+  <h1 class="about_h1"><?php echo ucfirst("Assignments"); ?></h1>
+</div>
 
 <div class="row card_views">
     <div class="col-sm-6 for_bca">
