@@ -58,8 +58,8 @@
           <h4><span class="glyphicon glyphicon-ok-sign"></span> Motivate to SelfStudy</h4>
         </div>
 
-        <div id="menu1" class="tab-pane fade in active">
-          <h4>Check Your Grade Card</h4>
+        <div id="menu1" class="tab-pane fade in active ">
+          <h4 class="animText">Check Your Grade Card</h4>
           <div class="col-md-12 gradecard_class">
             <form  action="https://webservices.ignou.ac.in/GradecardM/Result.asp" target="_blank" method="post">
               <span style="color: black; font-size:15px; ">

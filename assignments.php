@@ -13,7 +13,7 @@ $urlp = 'https://webservices.ignou.ac.in/assignments/mca/';
 
 <div class="row card_views">
     <div class="col-sm-6 for_bca">
-    <div class="col-sm-12 bca">
+    <div class="col-sm-12 bca animButton">
     FOR BCA STUDENTS
     </div>
 <div class="col-md-4 ">
@@ -84,7 +84,7 @@ $urlp = 'https://webservices.ignou.ac.in/assignments/mca/';
         </div>
     </div>
     <div class="col-sm-6 for_mca">
-      <div class="col-sm-12 mca">
+      <div class="col-sm-12 mca animButton">
     FOR MCA STUDENTS
     </div>
 <div class="col-md-4 ">
@@ -157,7 +157,7 @@ $urlp = 'https://webservices.ignou.ac.in/assignments/mca/';
 </div>
 
 <div class="row for_others">
-    <div class="col-md-12 mca">
+    <div class="col-md-12 mca animButton">
     FOR OTHER STUDENTS
     </div>
     <div class="col-md-3 ">
@@ -213,10 +213,8 @@ $urlp = 'https://webservices.ignou.ac.in/assignments/mca/';
         </div>
     <div class="col-md-12 ">
           <div class="thumbnail2">
-             <a href="https://webservices.ignou.ac.in/assignments" target="_blank"><button type="button" class="btn  btn-primary btn-block">FOR OTHER COURSES CLICK HERE</button></a>
+             <a href="https://webservices.ignou.ac.in/assignments" target="_blank"><button type="submit" class="btn  btn-primary btn-block">FOR OTHER COURSES CLICK HERE</button></a>
           </div>
         </div>
         </div>
-  </div>
-    </div>
 <?php include('footer.php') ?>

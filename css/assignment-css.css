@@ -115,8 +115,8 @@ body{clear: both; margin: 0 auto;}
     margin-bottom:1px;
 }
 .card_button button:hover{
-    background-color:white;
-    color:navy;
+    background-color:#2962FF;
+    color:#fff;
 }
 
 
@@ -127,6 +127,36 @@ body{clear: both; margin: 0 auto;}
 .thumbnail2 button a:hover{
     color:aqua;
 }
+.animButton{
+    border:none; 
+    background:whitesmoke;
+    animation:myfirst 20s;
+    -webkit-animation:myfirst 20s infinite; /* Safari and Chrome */
+}
+  @-webkit-keyframes myfirst /* Safari and Chrome */
+    {
+    0%   {background:navy;}
+    40%  {background:#009688;}
+    60%  {background:#304FFE;} 
+    80%  {background:#2962FF;}
+    100%   {background:#000088;}
+    }
+
+.animText{
+    border:none; 
+    background:whitesmoke;
+    animation:myfirst2 20s;
+    -webkit-animation:myfirst2 20s infinite; /* Safari and Chrome */
+}
+  @-webkit-keyframes myfirst2 /* Safari and Chrome */
+    {
+    0%   {color:#fff;}
+    20%   {color:yellow;}    
+    40%  {color:cyan;}
+    60%  {color:#304FFE;} 
+    80%  {color:#2962FF;}
+    100%   {color:#000088;}
+    }
 
 /* button style end here */
 
