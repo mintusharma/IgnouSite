@@ -1,8 +1,8 @@
 <?php include('header.php'); ?>
 
-<div class="col-sm-12 assignment">
-    <p><b>Solved Assignments</b></p>
-  </div>
+<div class="container-fluid about_container">
+  <h1 class="about_h1"><?php echo ucfirst("Solved Assignments "); ?></h1>
+</div>
 
 <div class="row projectcontainer">
 <div class="col-md-6 solved_assignment">

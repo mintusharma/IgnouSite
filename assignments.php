@@ -9,7 +9,7 @@ $urlp = 'https://webservices.ignou.ac.in/assignments/mca/';
 
  
 <div class="container-fluid about_container">
-  <h1 class="about_h1"><?php echo ucfirst("Assignments"); ?></h1>
+  <h1 class="about_h1"><?php echo ucfirst("Assignments "); ?></h1>
 </div>
 
 <div class="row card_views">
